@@ -1,0 +1,4312 @@
+{
+  "metadata": {
+    "title": "ASVAB Study Bank",
+    "description": "ASVAB practice question bank covering all 10 subtests for Space Force Officer candidate preparation.",
+    "categories": [
+      "General Science",
+      "Arithmetic Reasoning",
+      "Word Knowledge",
+      "Paragraph Comprehension",
+      "Mathematics Knowledge",
+      "Electronics Information",
+      "Auto Information",
+      "Shop Information",
+      "Mechanical Comprehension",
+      "Assembling Objects"
+    ],
+    "version": "3.0",
+    "last_verified": "2026-05-06"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "Arithmetic Reasoning",
+      "question": "A car travels 240 miles on 8 gallons of gas. What is its fuel efficiency in miles per gallon?",
+      "options": [
+        "20 mpg",
+        "25 mpg",
+        "30 mpg",
+        "32 mpg"
+      ],
+      "answer": "30 mpg",
+      "explanation": "Divide total miles by total gallons. 240 / 8 = 30 mpg."
+    },
+    {
+      "id": 2,
+      "category": "Arithmetic Reasoning",
+      "question": "If 3 pencils cost $0.45, how much would 8 pencils cost at the same rate?",
+      "options": [
+        "$1.10",
+        "$1.20",
+        "$1.35",
+        "$1.50"
+      ],
+      "answer": "$1.20",
+      "explanation": "Unit price is 0.45 / 3 = $0.15. Then 8 x 0.15 = $1.20."
+    },
+    {
+      "id": 3,
+      "category": "Arithmetic Reasoning",
+      "question": "A shirt is on sale for 25 percent off its original price of $40. What is the sale price?",
+      "options": [
+        "$28",
+        "$30",
+        "$32",
+        "$35"
+      ],
+      "answer": "$30",
+      "explanation": "25 percent of 40 is 10. The sale price is 40 minus 10, which equals $30."
+    },
+    {
+      "id": 4,
+      "category": "Arithmetic Reasoning",
+      "question": "A worker earns $15 per hour and works 32 hours in a week. What is the gross pay?",
+      "options": [
+        "$420",
+        "$450",
+        "$480",
+        "$520"
+      ],
+      "answer": "$480",
+      "explanation": "Multiply hourly rate by hours worked. 15 x 32 = $480."
+    },
+    {
+      "id": 5,
+      "category": "Arithmetic Reasoning",
+      "question": "A recipe uses 2 cups of flour to make 12 cookies. How much flour is needed for 30 cookies?",
+      "options": [
+        "4 cups",
+        "4.5 cups",
+        "5 cups",
+        "6 cups"
+      ],
+      "answer": "5 cups",
+      "explanation": "Set up the ratio 2/12 = x/30. Cross multiply to get 12x = 60, so x = 5 cups."
+    },
+    {
+      "id": 6,
+      "category": "Arithmetic Reasoning",
+      "question": "The sum of three consecutive integers is 78. What is the smallest of the three integers?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "answer": "25",
+      "explanation": "Average is 78 / 3 = 26, which is the middle integer. The integers are 25, 26, 27, so the smallest is 25."
+    },
+    {
+      "id": 7,
+      "category": "Arithmetic Reasoning",
+      "question": "If 40 percent of a number is 60, what is the number?",
+      "options": [
+        "120",
+        "140",
+        "150",
+        "160"
+      ],
+      "answer": "150",
+      "explanation": "Divide the part by the percent in decimal form. 60 / 0.40 = 150."
+    },
+    {
+      "id": 8,
+      "category": "Arithmetic Reasoning",
+      "question": "Two trains start 300 miles apart and travel toward each other. One travels at 50 mph and the other at 70 mph. How long until they meet?",
+      "options": [
+        "2 hours",
+        "2.5 hours",
+        "3 hours",
+        "3.5 hours"
+      ],
+      "answer": "2.5 hours",
+      "explanation": "Combined closing speed is 50 + 70 = 120 mph. Time equals distance divided by speed. 300 / 120 = 2.5 hours."
+    },
+    {
+      "id": 9,
+      "category": "Arithmetic Reasoning",
+      "question": "A pizza costs $12.00 plus 8 percent sales tax. What is the total cost?",
+      "options": [
+        "$12.80",
+        "$12.96",
+        "$13.20",
+        "$13.60"
+      ],
+      "answer": "$12.96",
+      "explanation": "Tax is 12 x 0.08 = 0.96. Total is 12 + 0.96 = $12.96."
+    },
+    {
+      "id": 10,
+      "category": "Arithmetic Reasoning",
+      "question": "If you save $50 per week, how much will you save in one year (52 weeks)?",
+      "options": [
+        "$2,400",
+        "$2,500",
+        "$2,600",
+        "$2,800"
+      ],
+      "answer": "$2,600",
+      "explanation": "Multiply weekly savings by number of weeks. 50 x 52 = $2,600."
+    },
+    {
+      "id": 11,
+      "category": "Arithmetic Reasoning",
+      "question": "A 60 foot rope is cut into three pieces in the ratio 2:3:5. How long is the longest piece?",
+      "options": [
+        "20 feet",
+        "25 feet",
+        "30 feet",
+        "35 feet"
+      ],
+      "answer": "30 feet",
+      "explanation": "The ratio sums to 10 parts. Each part is 60 / 10 = 6 feet. The longest piece equals 5 parts, or 5 x 6 = 30 feet."
+    },
+    {
+      "id": 12,
+      "category": "Arithmetic Reasoning",
+      "question": "If 15 workers can complete a job in 8 days, how long would it take 10 workers to do the same job?",
+      "options": [
+        "10 days",
+        "11 days",
+        "12 days",
+        "14 days"
+      ],
+      "answer": "12 days",
+      "explanation": "Total work is 15 x 8 = 120 worker days. With 10 workers, 120 / 10 = 12 days."
+    },
+    {
+      "id": 13,
+      "category": "Arithmetic Reasoning",
+      "question": "A car uses 1 gallon of gas every 25 miles. How many gallons are needed for a 350 mile trip?",
+      "options": [
+        "12 gallons",
+        "13 gallons",
+        "14 gallons",
+        "15 gallons"
+      ],
+      "answer": "14 gallons",
+      "explanation": "Divide distance by miles per gallon. 350 / 25 = 14 gallons."
+    },
+    {
+      "id": 14,
+      "category": "Arithmetic Reasoning",
+      "question": "A $200 jacket is marked up 30 percent, then discounted 20 percent. What is the final price?",
+      "options": [
+        "$200",
+        "$208",
+        "$220",
+        "$240"
+      ],
+      "answer": "$208",
+      "explanation": "After markup: 200 x 1.30 = 260. After discount: 260 x 0.80 = $208."
+    },
+    {
+      "id": 15,
+      "category": "Arithmetic Reasoning",
+      "question": "The average of 5 numbers is 14. What is their sum?",
+      "options": [
+        "60",
+        "65",
+        "70",
+        "75"
+      ],
+      "answer": "70",
+      "explanation": "Sum equals average times count. 14 x 5 = 70."
+    },
+    {
+      "id": 16,
+      "category": "Arithmetic Reasoning",
+      "question": "A class of 24 students has a girl to boy ratio of 5:3. How many girls are in the class?",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "Total ratio parts equal 5 + 3 = 8. Each part equals 24 / 8 = 3 students. Girls equal 5 x 3 = 15."
+    },
+    {
+      "id": 17,
+      "category": "Arithmetic Reasoning",
+      "question": "A man invests $5,000 at 6 percent simple interest for 3 years. How much interest is earned?",
+      "options": [
+        "$600",
+        "$750",
+        "$900",
+        "$1,200"
+      ],
+      "answer": "$900",
+      "explanation": "Simple interest formula: I = P x r x t. 5000 x 0.06 x 3 = $900."
+    },
+    {
+      "id": 18,
+      "category": "Arithmetic Reasoning",
+      "question": "If 12 oranges cost $3.60, what is the cost of 18 oranges at the same rate?",
+      "options": [
+        "$4.80",
+        "$5.20",
+        "$5.40",
+        "$5.80"
+      ],
+      "answer": "$5.40",
+      "explanation": "Unit price is 3.60 / 12 = $0.30. Then 18 x 0.30 = $5.40."
+    },
+    {
+      "id": 19,
+      "category": "Arithmetic Reasoning",
+      "question": "A worker's salary rises from $40,000 to $44,000. What is the percent increase?",
+      "options": [
+        "8 percent",
+        "10 percent",
+        "12 percent",
+        "15 percent"
+      ],
+      "answer": "10 percent",
+      "explanation": "Increase is 4,000. Percent equals 4000 / 40000 = 0.10 or 10 percent."
+    },
+    {
+      "id": 20,
+      "category": "Arithmetic Reasoning",
+      "question": "A 30 percent acid solution has a volume of 200 mL. How much pure water must be added to make a 20 percent solution?",
+      "options": [
+        "50 mL",
+        "75 mL",
+        "100 mL",
+        "125 mL"
+      ],
+      "answer": "100 mL",
+      "explanation": "Acid amount is fixed at 200 x 0.30 = 60 mL. Set 60 / (200 + x) = 0.20. Solve: 200 + x = 300, x = 100 mL."
+    },
+    {
+      "id": 21,
+      "category": "Arithmetic Reasoning",
+      "question": "A 500 gallon water tank leaks at 5 gallons per hour. How long until it is empty?",
+      "options": [
+        "50 hours",
+        "75 hours",
+        "100 hours",
+        "150 hours"
+      ],
+      "answer": "100 hours",
+      "explanation": "Divide total volume by leak rate. 500 / 5 = 100 hours."
+    },
+    {
+      "id": 22,
+      "category": "Arithmetic Reasoning",
+      "question": "A car bought for $20,000 depreciates 10 percent each year. What is its value after 2 years?",
+      "options": [
+        "$15,800",
+        "$16,000",
+        "$16,200",
+        "$18,000"
+      ],
+      "answer": "$16,200",
+      "explanation": "Apply 0.90 multiplier each year. 20000 x 0.9 = 18000. Then 18000 x 0.9 = $16,200."
+    },
+    {
+      "id": 23,
+      "category": "Arithmetic Reasoning",
+      "question": "A rectangular field is 12 meters long and 8 meters wide. What is its area?",
+      "options": [
+        "20 sq m",
+        "40 sq m",
+        "96 sq m",
+        "120 sq m"
+      ],
+      "answer": "96 sq m",
+      "explanation": "Area of rectangle equals length times width. 12 x 8 = 96 square meters."
+    },
+    {
+      "id": 24,
+      "category": "Arithmetic Reasoning",
+      "question": "A box of cereal weighs 16 ounces. How many ounces are in a case of 12 boxes?",
+      "options": [
+        "180 oz",
+        "192 oz",
+        "200 oz",
+        "216 oz"
+      ],
+      "answer": "192 oz",
+      "explanation": "Multiply weight per box by number of boxes. 16 x 12 = 192 ounces."
+    },
+    {
+      "id": 25,
+      "category": "Arithmetic Reasoning",
+      "question": "John leaves at 9 AM driving 60 mph. Sarah leaves at 10 AM from the same starting point driving 80 mph in the same direction. At what time does Sarah catch up to John?",
+      "options": [
+        "12:00 PM",
+        "12:30 PM",
+        "1:00 PM",
+        "1:30 PM"
+      ],
+      "answer": "1:00 PM",
+      "explanation": "At 10 AM, John is 60 miles ahead. Sarah closes the gap at 80 minus 60, or 20 mph. 60 / 20 = 3 hours. 10 AM plus 3 hours equals 1 PM."
+    },
+    {
+      "id": 26,
+      "category": "Mathematics Knowledge",
+      "question": "Solve for x: 3x + 7 = 22",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "answer": "5",
+      "explanation": "Subtract 7 from both sides to get 3x = 15. Divide by 3 to get x = 5."
+    },
+    {
+      "id": 27,
+      "category": "Mathematics Knowledge",
+      "question": "Factor the expression x squared minus 9.",
+      "options": [
+        "(x + 3)(x + 3)",
+        "(x - 3)(x - 3)",
+        "(x - 3)(x + 3)",
+        "x(x - 9)"
+      ],
+      "answer": "(x - 3)(x + 3)",
+      "explanation": "This is a difference of squares: a squared minus b squared equals (a - b)(a + b). Here a = x and b = 3."
+    },
+    {
+      "id": 28,
+      "category": "Mathematics Knowledge",
+      "question": "Simplify: (2x squared)(3x cubed)",
+      "options": [
+        "5x to the 5th",
+        "6x to the 5th",
+        "6x to the 6th",
+        "5x to the 6th"
+      ],
+      "answer": "6x to the 5th",
+      "explanation": "Multiply coefficients: 2 x 3 = 6. Add exponents on the same base: 2 + 3 = 5. Result is 6x to the 5th power."
+    },
+    {
+      "id": 29,
+      "category": "Mathematics Knowledge",
+      "question": "What is the slope of the line passing through (2, 3) and (5, 9)?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "1/2"
+      ],
+      "answer": "2",
+      "explanation": "Slope equals (y2 - y1) / (x2 - x1). (9 - 3) / (5 - 2) = 6 / 3 = 2."
+    },
+    {
+      "id": 30,
+      "category": "Mathematics Knowledge",
+      "question": "What is the area of a circle with radius 5?",
+      "options": [
+        "10 pi",
+        "15 pi",
+        "25 pi",
+        "50 pi"
+      ],
+      "answer": "25 pi",
+      "explanation": "Area equals pi times radius squared. pi x 5 squared = 25 pi."
+    },
+    {
+      "id": 31,
+      "category": "Mathematics Knowledge",
+      "question": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": "10",
+      "explanation": "Use the Pythagorean theorem: a squared plus b squared equals c squared. 36 + 64 = 100, so c equals the square root of 100, which is 10."
+    },
+    {
+      "id": 32,
+      "category": "Mathematics Knowledge",
+      "question": "What is the square root of 144?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": "12",
+      "explanation": "12 multiplied by 12 equals 144, so the square root of 144 is 12."
+    },
+    {
+      "id": 33,
+      "category": "Mathematics Knowledge",
+      "question": "Expand (x + 3) squared.",
+      "options": [
+        "x squared plus 9",
+        "x squared plus 6x plus 9",
+        "x squared plus 3x plus 9",
+        "x squared plus 3x plus 6"
+      ],
+      "answer": "x squared plus 6x plus 9",
+      "explanation": "(x + 3)(x + 3) equals x squared + 3x + 3x + 9, which simplifies to x squared + 6x + 9."
+    },
+    {
+      "id": 34,
+      "category": "Mathematics Knowledge",
+      "question": "Solve for x: 2x - 5 = 3x + 1",
+      "options": [
+        "-6",
+        "-4",
+        "4",
+        "6"
+      ],
+      "answer": "-6",
+      "explanation": "Subtract 2x from both sides: -5 = x + 1. Subtract 1 to get x = -6."
+    },
+    {
+      "id": 35,
+      "category": "Mathematics Knowledge",
+      "question": "What is the volume of a cube with side length 4?",
+      "options": [
+        "12",
+        "16",
+        "48",
+        "64"
+      ],
+      "answer": "64",
+      "explanation": "Volume of a cube equals side cubed. 4 x 4 x 4 = 64."
+    },
+    {
+      "id": 36,
+      "category": "Mathematics Knowledge",
+      "question": "If f(x) = 2x + 3, what is f(4)?",
+      "options": [
+        "7",
+        "9",
+        "11",
+        "14"
+      ],
+      "answer": "11",
+      "explanation": "Substitute x = 4 into the function. 2(4) + 3 = 8 + 3 = 11."
+    },
+    {
+      "id": 37,
+      "category": "Mathematics Knowledge",
+      "question": "What is the sum of the interior angles of a triangle?",
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "270 degrees",
+        "360 degrees"
+      ],
+      "answer": "180 degrees",
+      "explanation": "By definition in Euclidean geometry, the interior angles of any triangle sum to 180 degrees."
+    },
+    {
+      "id": 38,
+      "category": "Mathematics Knowledge",
+      "question": "Solve x squared equals 49.",
+      "options": [
+        "x = 7 only",
+        "x = -7 only",
+        "x = 7 or x = -7",
+        "x = 14"
+      ],
+      "answer": "x = 7 or x = -7",
+      "explanation": "Both 7 squared and (-7) squared equal 49, so the equation has two solutions."
+    },
+    {
+      "id": 39,
+      "category": "Mathematics Knowledge",
+      "question": "Solve the quadratic x squared minus 5x plus 6 equals 0.",
+      "options": [
+        "x = 1 or x = 6",
+        "x = 2 or x = 3",
+        "x = -2 or x = -3",
+        "x = 5 or x = 6"
+      ],
+      "answer": "x = 2 or x = 3",
+      "explanation": "Factor as (x - 2)(x - 3) = 0. Solutions are x = 2 and x = 3."
+    },
+    {
+      "id": 40,
+      "category": "Mathematics Knowledge",
+      "question": "What is the surface area of a cube with side length 3?",
+      "options": [
+        "27",
+        "36",
+        "54",
+        "72"
+      ],
+      "answer": "54",
+      "explanation": "Surface area equals 6 times side squared. 6 x 9 = 54."
+    },
+    {
+      "id": 41,
+      "category": "Mathematics Knowledge",
+      "question": "What is 5 factorial?",
+      "options": [
+        "20",
+        "60",
+        "100",
+        "120"
+      ],
+      "answer": "120",
+      "explanation": "5! equals 5 x 4 x 3 x 2 x 1 = 120."
+    },
+    {
+      "id": 42,
+      "category": "Mathematics Knowledge",
+      "question": "Simplify (x squared) cubed.",
+      "options": [
+        "x to the 5th",
+        "x to the 6th",
+        "x to the 8th",
+        "x to the 9th"
+      ],
+      "answer": "x to the 6th",
+      "explanation": "When raising a power to a power, multiply the exponents. 2 x 3 = 6."
+    },
+    {
+      "id": 43,
+      "category": "Mathematics Knowledge",
+      "question": "If 2 to the x equals 32, what is x?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "5",
+      "explanation": "2 to the 5th equals 32, so x equals 5."
+    },
+    {
+      "id": 44,
+      "category": "Mathematics Knowledge",
+      "question": "What is the perimeter of a rectangle that is 5 units by 8 units?",
+      "options": [
+        "13",
+        "26",
+        "30",
+        "40"
+      ],
+      "answer": "26",
+      "explanation": "Perimeter equals 2 times length plus 2 times width. 2(5) + 2(8) = 10 + 16 = 26."
+    },
+    {
+      "id": 45,
+      "category": "Mathematics Knowledge",
+      "question": "What is the median of the set {3, 7, 9, 11, 15}?",
+      "options": [
+        "7",
+        "9",
+        "11",
+        "9.5"
+      ],
+      "answer": "9",
+      "explanation": "The set is already in order. The middle value of five elements is the third one, which is 9."
+    },
+    {
+      "id": 46,
+      "category": "Mathematics Knowledge",
+      "question": "What is the slope of a horizontal line?",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "Negative"
+      ],
+      "answer": "0",
+      "explanation": "A horizontal line has no rise, so the slope (rise over run) is 0."
+    },
+    {
+      "id": 47,
+      "category": "Mathematics Knowledge",
+      "question": "Multiply (3x + 2)(x - 5).",
+      "options": [
+        "3x squared minus 13x minus 10",
+        "3x squared plus 13x minus 10",
+        "3x squared minus 17x plus 10",
+        "3x squared minus 13x plus 10"
+      ],
+      "answer": "3x squared minus 13x minus 10",
+      "explanation": "Use FOIL: 3x squared - 15x + 2x - 10. Combine like terms: 3x squared - 13x - 10."
+    },
+    {
+      "id": 48,
+      "category": "Mathematics Knowledge",
+      "question": "What is the value of log base 10 of 1000?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "10"
+      ],
+      "answer": "3",
+      "explanation": "10 to the 3rd power equals 1000, so log base 10 of 1000 equals 3."
+    },
+    {
+      "id": 49,
+      "category": "Mathematics Knowledge",
+      "question": "What is the value of sin(30 degrees)?",
+      "options": [
+        "0",
+        "0.5",
+        "0.707",
+        "1"
+      ],
+      "answer": "0.5",
+      "explanation": "From standard trigonometric values, sin(30 degrees) equals 1/2 or 0.5."
+    },
+    {
+      "id": 50,
+      "category": "Mathematics Knowledge",
+      "question": "If a circle has a diameter of 10, what is its circumference?",
+      "options": [
+        "5 pi",
+        "10 pi",
+        "20 pi",
+        "25 pi"
+      ],
+      "answer": "10 pi",
+      "explanation": "Circumference equals pi times diameter. pi x 10 = 10 pi."
+    },
+    {
+      "id": 51,
+      "category": "Electronics Information",
+      "question": "Using Ohm's Law, what is the voltage across a 10 ohm resistor with 2 amps of current flowing through it?",
+      "options": [
+        "5 volts",
+        "12 volts",
+        "20 volts",
+        "0.2 volts"
+      ],
+      "answer": "20 volts",
+      "explanation": "Ohm's Law states V = I times R. 2 amps x 10 ohms = 20 volts."
+    },
+    {
+      "id": 52,
+      "category": "Electronics Information",
+      "question": "What is the unit of electrical resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": "Ohm",
+      "explanation": "Resistance is measured in ohms, symbolized by the Greek letter omega."
+    },
+    {
+      "id": 53,
+      "category": "Electronics Information",
+      "question": "What is the unit of electric current?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Coulomb",
+        "Henry"
+      ],
+      "answer": "Ampere",
+      "explanation": "Current is the flow of charge per unit time, measured in amperes (amps)."
+    },
+    {
+      "id": 54,
+      "category": "Electronics Information",
+      "question": "In a series circuit with three resistors of 2, 3, and 5 ohms, what is the total resistance?",
+      "options": [
+        "1 ohm",
+        "5 ohms",
+        "10 ohms",
+        "30 ohms"
+      ],
+      "answer": "10 ohms",
+      "explanation": "In a series circuit, total resistance equals the sum of all resistances. 2 + 3 + 5 = 10 ohms."
+    },
+    {
+      "id": 55,
+      "category": "Electronics Information",
+      "question": "Two 6 ohm resistors are connected in parallel. What is the total resistance?",
+      "options": [
+        "12 ohms",
+        "6 ohms",
+        "3 ohms",
+        "2 ohms"
+      ],
+      "answer": "3 ohms",
+      "explanation": "For two equal resistors in parallel, total resistance equals one half of one resistor. 6 / 2 = 3 ohms."
+    },
+    {
+      "id": 56,
+      "category": "Electronics Information",
+      "question": "What is the unit of capacitance?",
+      "options": [
+        "Farad",
+        "Henry",
+        "Hertz",
+        "Tesla"
+      ],
+      "answer": "Farad",
+      "explanation": "Capacitance, the ability of a component to store electric charge, is measured in farads."
+    },
+    {
+      "id": 57,
+      "category": "Electronics Information",
+      "question": "What is the unit of inductance?",
+      "options": [
+        "Farad",
+        "Henry",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": "Henry",
+      "explanation": "Inductance, the property of a coil to oppose changes in current, is measured in henries."
+    },
+    {
+      "id": 58,
+      "category": "Electronics Information",
+      "question": "What is the unit of frequency?",
+      "options": [
+        "Hertz",
+        "Watt",
+        "Joule",
+        "Newton"
+      ],
+      "answer": "Hertz",
+      "explanation": "Frequency, the number of cycles per second, is measured in hertz (Hz)."
+    },
+    {
+      "id": 59,
+      "category": "Electronics Information",
+      "question": "What is the power dissipated by a device operating at 12 volts and drawing 2 amps?",
+      "options": [
+        "6 watts",
+        "10 watts",
+        "14 watts",
+        "24 watts"
+      ],
+      "answer": "24 watts",
+      "explanation": "Power equals voltage times current. P = V x I = 12 x 2 = 24 watts."
+    },
+    {
+      "id": 60,
+      "category": "Electronics Information",
+      "question": "What does AC stand for in electronics?",
+      "options": [
+        "Active Current",
+        "Alternating Current",
+        "Amplified Current",
+        "Atomic Current"
+      ],
+      "answer": "Alternating Current",
+      "explanation": "AC stands for Alternating Current, which periodically reverses direction. DC, by contrast, flows in one direction."
+    },
+    {
+      "id": 61,
+      "category": "Electronics Information",
+      "question": "What does DC stand for?",
+      "options": [
+        "Direct Current",
+        "Dynamic Current",
+        "Dual Current",
+        "Discrete Current"
+      ],
+      "answer": "Direct Current",
+      "explanation": "DC stands for Direct Current, which flows steadily in one direction. Batteries provide DC."
+    },
+    {
+      "id": 62,
+      "category": "Electronics Information",
+      "question": "What is the primary function of a diode?",
+      "options": [
+        "Store charge",
+        "Amplify signals",
+        "Allow current in only one direction",
+        "Generate voltage"
+      ],
+      "answer": "Allow current in only one direction",
+      "explanation": "A diode acts as a one way valve for current. It permits flow in the forward direction and blocks reverse flow."
+    },
+    {
+      "id": 63,
+      "category": "Electronics Information",
+      "question": "What is the primary function of a transistor?",
+      "options": [
+        "Block current",
+        "Amplify or switch signals",
+        "Store charge only",
+        "Convert AC to DC"
+      ],
+      "answer": "Amplify or switch signals",
+      "explanation": "Transistors are semiconductor devices used to amplify signals or act as electronic switches in circuits."
+    },
+    {
+      "id": 64,
+      "category": "Electronics Information",
+      "question": "Power can be calculated using P = I squared times R. If I = 3 amps and R = 4 ohms, what is the power?",
+      "options": [
+        "12 watts",
+        "24 watts",
+        "36 watts",
+        "48 watts"
+      ],
+      "answer": "36 watts",
+      "explanation": "P = I squared x R = 9 x 4 = 36 watts."
+    },
+    {
+      "id": 65,
+      "category": "Electronics Information",
+      "question": "What is the standard household voltage in the United States?",
+      "options": [
+        "110 volts",
+        "120 volts",
+        "220 volts",
+        "240 volts"
+      ],
+      "answer": "120 volts",
+      "explanation": "Standard residential outlets in the US deliver about 120 volts AC at 60 Hz."
+    },
+    {
+      "id": 66,
+      "category": "Electronics Information",
+      "question": "Which of the following is the best electrical insulator?",
+      "options": [
+        "Copper",
+        "Aluminum",
+        "Rubber",
+        "Saltwater"
+      ],
+      "answer": "Rubber",
+      "explanation": "Rubber resists the flow of electricity, making it an insulator. Copper and aluminum are conductors."
+    },
+    {
+      "id": 67,
+      "category": "Electronics Information",
+      "question": "Which material is the best electrical conductor among the following?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Glass",
+        "Plastic"
+      ],
+      "answer": "Copper",
+      "explanation": "Copper has very low resistivity and is the most common conductor used in wiring. Glass and plastic are insulators."
+    },
+    {
+      "id": 68,
+      "category": "Electronics Information",
+      "question": "Silicon and germanium are examples of what?",
+      "options": [
+        "Insulators",
+        "Conductors",
+        "Semiconductors",
+        "Superconductors"
+      ],
+      "answer": "Semiconductors",
+      "explanation": "Silicon and germanium have conductivity between that of conductors and insulators. They form the basis of most modern electronics."
+    },
+    {
+      "id": 69,
+      "category": "Electronics Information",
+      "question": "What is the standard AC frequency in the United States?",
+      "options": [
+        "50 Hz",
+        "60 Hz",
+        "100 Hz",
+        "120 Hz"
+      ],
+      "answer": "60 Hz",
+      "explanation": "The US power grid runs at 60 Hz. Most of Europe and parts of Asia use 50 Hz."
+    },
+    {
+      "id": 70,
+      "category": "Electronics Information",
+      "question": "When batteries are connected in series, what happens?",
+      "options": [
+        "Voltage adds",
+        "Current capacity adds",
+        "Resistance increases only",
+        "Voltage stays the same"
+      ],
+      "answer": "Voltage adds",
+      "explanation": "Series connection sums the individual voltages. Two 1.5 volt batteries in series produce 3 volts."
+    },
+    {
+      "id": 71,
+      "category": "Electronics Information",
+      "question": "When batteries are connected in parallel, what is the main effect?",
+      "options": [
+        "Voltage doubles",
+        "Current capacity (amp hours) increases",
+        "Resistance triples",
+        "Polarity reverses"
+      ],
+      "answer": "Current capacity (amp hours) increases",
+      "explanation": "Parallel connection keeps voltage constant but adds the capacities, allowing the circuit to source current for longer."
+    },
+    {
+      "id": 72,
+      "category": "Electronics Information",
+      "question": "What does a transformer do?",
+      "options": [
+        "Convert AC to DC",
+        "Step voltage up or down",
+        "Store electricity",
+        "Amplify current only"
+      ],
+      "answer": "Step voltage up or down",
+      "explanation": "Transformers use electromagnetic induction to change AC voltage levels. They do not change the frequency."
+    },
+    {
+      "id": 73,
+      "category": "Electronics Information",
+      "question": "In the resistor color code, what value does the color red represent?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": "2",
+      "explanation": "Standard resistor color codes assign black=0, brown=1, red=2, orange=3, yellow=4, green=5, blue=6, violet=7, gray=8, white=9."
+    },
+    {
+      "id": 74,
+      "category": "Electronics Information",
+      "question": "What happens to total resistance in a parallel circuit when more resistors are added?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It stays the same",
+        "It becomes infinite"
+      ],
+      "answer": "It decreases",
+      "explanation": "Adding parallel paths gives current more routes. Total resistance is always less than the smallest individual resistor in the parallel branch."
+    },
+    {
+      "id": 75,
+      "category": "Electronics Information",
+      "question": "What is the symbol used for ground in circuit diagrams?",
+      "options": [
+        "A circle",
+        "Three horizontal lines decreasing in size",
+        "An arrow",
+        "A triangle"
+      ],
+      "answer": "Three horizontal lines decreasing in size",
+      "explanation": "Earth ground is typically represented by a stack of three horizontal lines that get progressively shorter."
+    },
+    {
+      "id": 76,
+      "category": "General Science",
+      "question": "What is the chemical formula for water?",
+      "options": [
+        "CO2",
+        "H2O",
+        "O2",
+        "NaCl"
+      ],
+      "answer": "H2O",
+      "explanation": "Water is composed of two hydrogen atoms bonded to one oxygen atom, written as H2O."
+    },
+    {
+      "id": 77,
+      "category": "General Science",
+      "question": "Which is the largest planet in our solar system?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Jupiter",
+      "explanation": "Jupiter is a gas giant with a mass more than twice that of all other planets combined."
+    },
+    {
+      "id": 78,
+      "category": "General Science",
+      "question": "What is the approximate speed of light in a vacuum?",
+      "options": [
+        "300 km/s",
+        "3,000 km/s",
+        "300,000 km/s",
+        "3 million km/s"
+      ],
+      "answer": "300,000 km/s",
+      "explanation": "Light travels at roughly 3 x 10 to the 8th meters per second, equivalent to 300,000 kilometers per second."
+    },
+    {
+      "id": 79,
+      "category": "General Science",
+      "question": "Which organelle is known as the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondrion",
+        "Golgi apparatus"
+      ],
+      "answer": "Mitochondrion",
+      "explanation": "Mitochondria produce ATP through cellular respiration, supplying most of the energy used by the cell."
+    },
+    {
+      "id": 80,
+      "category": "General Science",
+      "question": "What does DNA stand for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dinitrogen Acid",
+        "Diribose Nucleic Acid",
+        "Dynamic Nuclear Acid"
+      ],
+      "answer": "Deoxyribonucleic Acid",
+      "explanation": "DNA stands for Deoxyribonucleic Acid. It carries genetic information in nearly all living organisms."
+    },
+    {
+      "id": 81,
+      "category": "General Science",
+      "question": "What pH value is considered neutral?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "10"
+      ],
+      "answer": "7",
+      "explanation": "On the pH scale of 0 to 14, a value of 7 is neutral. Below 7 is acidic, and above 7 is basic."
+    },
+    {
+      "id": 82,
+      "category": "General Science",
+      "question": "An atom's atomic number equals the number of which subatomic particle?",
+      "options": [
+        "Neutrons",
+        "Protons",
+        "Electrons",
+        "Quarks"
+      ],
+      "answer": "Protons",
+      "explanation": "The atomic number defines the element and equals the number of protons in the nucleus of the atom."
+    },
+    {
+      "id": 83,
+      "category": "General Science",
+      "question": "At sea level, what is the boiling point of water in Celsius?",
+      "options": [
+        "50 C",
+        "75 C",
+        "100 C",
+        "212 C"
+      ],
+      "answer": "100 C",
+      "explanation": "Pure water boils at 100 degrees Celsius (212 degrees Fahrenheit) at standard atmospheric pressure."
+    },
+    {
+      "id": 84,
+      "category": "General Science",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "options": [
+        "0 F",
+        "32 F",
+        "100 F",
+        "212 F"
+      ],
+      "answer": "32 F",
+      "explanation": "Water freezes at 32 degrees Fahrenheit, which corresponds to 0 degrees Celsius."
+    },
+    {
+      "id": 85,
+      "category": "General Science",
+      "question": "What element has the chemical symbol Au?",
+      "options": [
+        "Silver",
+        "Aluminum",
+        "Gold",
+        "Copper"
+      ],
+      "answer": "Gold",
+      "explanation": "Au is from the Latin word aurum, which means gold."
+    },
+    {
+      "id": 86,
+      "category": "General Science",
+      "question": "What element has the chemical symbol Fe?",
+      "options": [
+        "Fluorine",
+        "Iron",
+        "Francium",
+        "Lead"
+      ],
+      "answer": "Iron",
+      "explanation": "Fe is derived from the Latin word ferrum, which means iron."
+    },
+    {
+      "id": 87,
+      "category": "General Science",
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Argon"
+      ],
+      "answer": "Nitrogen",
+      "explanation": "Earth's atmosphere is roughly 78 percent nitrogen, 21 percent oxygen, and 1 percent other gases."
+    },
+    {
+      "id": 88,
+      "category": "General Science",
+      "question": "What is the largest organ of the human body?",
+      "options": [
+        "Liver",
+        "Heart",
+        "Skin",
+        "Brain"
+      ],
+      "answer": "Skin",
+      "explanation": "The skin is the largest organ by surface area and weight in the human body."
+    },
+    {
+      "id": 89,
+      "category": "General Science",
+      "question": "How many bones are in the adult human body?",
+      "options": [
+        "186",
+        "206",
+        "256",
+        "300"
+      ],
+      "answer": "206",
+      "explanation": "Adults have 206 bones. Infants are born with about 270, but many fuse during growth."
+    },
+    {
+      "id": 90,
+      "category": "General Science",
+      "question": "What is the approximate speed of sound in air at room temperature?",
+      "options": [
+        "100 m/s",
+        "343 m/s",
+        "1,000 m/s",
+        "300,000 m/s"
+      ],
+      "answer": "343 m/s",
+      "explanation": "Sound travels at roughly 343 meters per second in dry air at 20 degrees Celsius."
+    },
+    {
+      "id": 91,
+      "category": "General Science",
+      "question": "What is the acceleration due to gravity near Earth's surface?",
+      "options": [
+        "1.6 m/s squared",
+        "5 m/s squared",
+        "9.8 m/s squared",
+        "20 m/s squared"
+      ],
+      "answer": "9.8 m/s squared",
+      "explanation": "Free fall acceleration near Earth's surface is approximately 9.8 meters per second squared."
+    },
+    {
+      "id": 92,
+      "category": "General Science",
+      "question": "What is the hardest naturally occurring substance?",
+      "options": [
+        "Quartz",
+        "Steel",
+        "Diamond",
+        "Granite"
+      ],
+      "answer": "Diamond",
+      "explanation": "Diamond ranks 10 on the Mohs hardness scale, the highest natural rating."
+    },
+    {
+      "id": 93,
+      "category": "General Science",
+      "question": "What is the electrical charge of an electron?",
+      "options": [
+        "Positive",
+        "Neutral",
+        "Negative",
+        "Variable"
+      ],
+      "answer": "Negative",
+      "explanation": "Electrons carry a negative elementary charge, opposite that of protons."
+    },
+    {
+      "id": 94,
+      "category": "General Science",
+      "question": "Which formula represents Newton's second law of motion?",
+      "options": [
+        "E = mc squared",
+        "F = ma",
+        "V = IR",
+        "P = mv"
+      ],
+      "answer": "F = ma",
+      "explanation": "Newton's second law states that force equals mass multiplied by acceleration."
+    },
+    {
+      "id": 95,
+      "category": "General Science",
+      "question": "What gas do plants release during photosynthesis?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "answer": "Oxygen",
+      "explanation": "Plants take in carbon dioxide and water and use sunlight to produce glucose. Oxygen is released as a byproduct."
+    },
+    {
+      "id": 96,
+      "category": "General Science",
+      "question": "What is the Earth's outer core primarily composed of?",
+      "options": [
+        "Solid silicon",
+        "Liquid iron and nickel",
+        "Solid oxygen",
+        "Molten rock"
+      ],
+      "answer": "Liquid iron and nickel",
+      "explanation": "The outer core is a liquid layer of mostly iron and nickel. Convection there generates Earth's magnetic field."
+    },
+    {
+      "id": 97,
+      "category": "General Science",
+      "question": "How many chromosomes are in a typical human body cell?",
+      "options": [
+        "23",
+        "44",
+        "46",
+        "92"
+      ],
+      "answer": "46",
+      "explanation": "Human somatic cells contain 23 pairs of chromosomes for a total of 46. Sex cells (gametes) contain only 23."
+    },
+    {
+      "id": 98,
+      "category": "General Science",
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "answer": "Mars",
+      "explanation": "Mars appears red due to iron oxide (rust) on its surface."
+    },
+    {
+      "id": 99,
+      "category": "General Science",
+      "question": "Which scientist proposed the three laws of motion?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Niels Bohr"
+      ],
+      "answer": "Isaac Newton",
+      "explanation": "Sir Isaac Newton formulated the three classical laws of motion in his 1687 work Principia Mathematica."
+    },
+    {
+      "id": 100,
+      "category": "General Science",
+      "question": "What is the basic unit of life?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Cell",
+        "Tissue"
+      ],
+      "answer": "Cell",
+      "explanation": "All known living organisms are composed of one or more cells, the smallest unit considered alive."
+    },
+    {
+      "id": 101,
+      "category": "Arithmetic Reasoning",
+      "question": "A car rents for $50 per day plus $0.20 per mile. What is the total for a 3 day rental with 100 miles driven?",
+      "options": [
+        "$150",
+        "$170",
+        "$180",
+        "$200"
+      ],
+      "answer": "$170",
+      "explanation": "Daily charge is 50 x 3 = 150. Mileage is 100 x 0.20 = 20. Total is 150 + 20 = 170."
+    },
+    {
+      "id": 102,
+      "category": "Arithmetic Reasoning",
+      "question": "A school has 600 students and 60 percent are girls. How many boys attend?",
+      "options": [
+        "180",
+        "200",
+        "240",
+        "360"
+      ],
+      "answer": "240",
+      "explanation": "If 60 percent are girls then 40 percent are boys. 600 x 0.40 = 240 boys."
+    },
+    {
+      "id": 103,
+      "category": "Arithmetic Reasoning",
+      "question": "Four pumps fill a tank in 5 hours. How long would 5 pumps of equal capacity take?",
+      "options": [
+        "3 hours",
+        "4 hours",
+        "4.5 hours",
+        "5 hours"
+      ],
+      "answer": "4 hours",
+      "explanation": "Total work is 4 x 5 = 20 pump hours. With 5 pumps, time equals 20 / 5 = 4 hours."
+    },
+    {
+      "id": 104,
+      "category": "Arithmetic Reasoning",
+      "question": "A train covers 240 miles in 4 hours. What is its average speed?",
+      "options": [
+        "50 mph",
+        "55 mph",
+        "60 mph",
+        "65 mph"
+      ],
+      "answer": "60 mph",
+      "explanation": "Speed equals distance divided by time. 240 / 4 = 60 mph."
+    },
+    {
+      "id": 105,
+      "category": "Arithmetic Reasoning",
+      "question": "Mary has three times as many marbles as John. Together they have 48 marbles. How many does Mary have?",
+      "options": [
+        "12",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "36",
+      "explanation": "Let John have x marbles. Then Mary has 3x. Together x + 3x = 4x = 48, so x = 12 and Mary has 36."
+    },
+    {
+      "id": 106,
+      "category": "Arithmetic Reasoning",
+      "question": "A train travels 60 mph for 4 hours, then 80 mph for 2 hours. What total distance is covered?",
+      "options": [
+        "360 miles",
+        "380 miles",
+        "400 miles",
+        "420 miles"
+      ],
+      "answer": "400 miles",
+      "explanation": "Distance equals rate times time. 60 x 4 = 240. 80 x 2 = 160. Sum is 240 + 160 = 400 miles."
+    },
+    {
+      "id": 107,
+      "category": "Arithmetic Reasoning",
+      "question": "What is a 15 percent tip on a $60 meal?",
+      "options": [
+        "$6",
+        "$8",
+        "$9",
+        "$12"
+      ],
+      "answer": "$9",
+      "explanation": "15 percent of 60 equals 0.15 x 60 = 9. The tip is $9."
+    },
+    {
+      "id": 108,
+      "category": "Arithmetic Reasoning",
+      "question": "An item with an original price of $50 is marked 30 percent off, then an additional 20 percent off the discounted price. What is the final price?",
+      "options": [
+        "$25.00",
+        "$28.00",
+        "$30.00",
+        "$32.00"
+      ],
+      "answer": "$28.00",
+      "explanation": "After first discount: 50 x 0.70 = 35. After second discount: 35 x 0.80 = 28."
+    },
+    {
+      "id": 109,
+      "category": "Arithmetic Reasoning",
+      "question": "If 5 apples cost $2.00, how much do 12 apples cost at the same rate?",
+      "options": [
+        "$4.40",
+        "$4.80",
+        "$5.00",
+        "$5.40"
+      ],
+      "answer": "$4.80",
+      "explanation": "Unit price is 2.00 / 5 = 0.40. Then 12 x 0.40 = $4.80."
+    },
+    {
+      "id": 110,
+      "category": "Arithmetic Reasoning",
+      "question": "A worker assembles 8 widgets per hour. How many can be assembled in 6.5 hours?",
+      "options": [
+        "48",
+        "50",
+        "52",
+        "56"
+      ],
+      "answer": "52",
+      "explanation": "Multiply rate by time. 8 x 6.5 = 52 widgets."
+    },
+    {
+      "id": 111,
+      "category": "Arithmetic Reasoning",
+      "question": "A class has a teacher to student ratio of 1 to 15. There are 30 students. How many teachers are there?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": "2",
+      "explanation": "Divide students by ratio. 30 / 15 = 2 teachers."
+    },
+    {
+      "id": 112,
+      "category": "Arithmetic Reasoning",
+      "question": "A solution is 60 percent sugar by mass. How much sugar is in 250 grams of solution?",
+      "options": [
+        "100 g",
+        "125 g",
+        "150 g",
+        "175 g"
+      ],
+      "answer": "150 g",
+      "explanation": "Multiply total mass by percentage. 250 x 0.60 = 150 g."
+    },
+    {
+      "id": 113,
+      "category": "Arithmetic Reasoning",
+      "question": "Sara is twice as old as Tom. In 5 years, the sum of their ages will be 28. How old is Sara now?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "14"
+      ],
+      "answer": "12",
+      "explanation": "Let Tom be t now. Sara is 2t. In 5 years: (2t + 5) + (t + 5) = 28. So 3t + 10 = 28 and t = 6. Sara is 12."
+    },
+    {
+      "id": 114,
+      "category": "Arithmetic Reasoning",
+      "question": "A square has a perimeter of 36 cm. What is its area?",
+      "options": [
+        "36 sq cm",
+        "64 sq cm",
+        "81 sq cm",
+        "100 sq cm"
+      ],
+      "answer": "81 sq cm",
+      "explanation": "Side length equals 36 / 4 = 9. Area equals side squared: 9 x 9 = 81 square cm."
+    },
+    {
+      "id": 115,
+      "category": "Arithmetic Reasoning",
+      "question": "A box has 24 chocolates and 3/8 of them are dark. How many are dark?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": "9",
+      "explanation": "Multiply total by the fraction. 24 x 3 / 8 = 72 / 8 = 9."
+    },
+    {
+      "id": 116,
+      "category": "Arithmetic Reasoning",
+      "question": "A buyer purchases 12 items at $3.50 each. What is the total cost?",
+      "options": [
+        "$36.00",
+        "$38.50",
+        "$42.00",
+        "$45.50"
+      ],
+      "answer": "$42.00",
+      "explanation": "Multiply count by unit price. 12 x 3.50 = $42.00."
+    },
+    {
+      "id": 117,
+      "category": "Arithmetic Reasoning",
+      "question": "A company has 200 employees. 25 percent work in sales and 30 percent in engineering. How many work in neither department?",
+      "options": [
+        "80",
+        "85",
+        "90",
+        "100"
+      ],
+      "answer": "90",
+      "explanation": "Sales plus engineering equals 25 + 30 = 55 percent. Remaining is 45 percent. 200 x 0.45 = 90."
+    },
+    {
+      "id": 118,
+      "category": "Arithmetic Reasoning",
+      "question": "If 8 widgets cost $24, what would 30 widgets cost?",
+      "options": [
+        "$80",
+        "$85",
+        "$90",
+        "$96"
+      ],
+      "answer": "$90",
+      "explanation": "Unit price is 24 / 8 = $3. Then 30 x 3 = $90."
+    },
+    {
+      "id": 119,
+      "category": "Arithmetic Reasoning",
+      "question": "An $18,000 car depreciates 15 percent in one year. What is its value after that year?",
+      "options": [
+        "$15,000",
+        "$15,300",
+        "$15,500",
+        "$16,200"
+      ],
+      "answer": "$15,300",
+      "explanation": "Apply 0.85 multiplier. 18000 x 0.85 = $15,300."
+    },
+    {
+      "id": 120,
+      "category": "Arithmetic Reasoning",
+      "question": "Three friends split a $90 dinner equally. How much does each pay?",
+      "options": [
+        "$25",
+        "$28",
+        "$30",
+        "$32"
+      ],
+      "answer": "$30",
+      "explanation": "Divide total by number of payers. 90 / 3 = $30."
+    },
+    {
+      "id": 121,
+      "category": "Arithmetic Reasoning",
+      "question": "A rectangle has an area of 60 square units and a width of 5 units. What is the length?",
+      "options": [
+        "10 units",
+        "12 units",
+        "13 units",
+        "15 units"
+      ],
+      "answer": "12 units",
+      "explanation": "Length equals area divided by width. 60 / 5 = 12 units."
+    },
+    {
+      "id": 122,
+      "category": "Arithmetic Reasoning",
+      "question": "A 25 ft pole casts a 10 ft shadow. A nearby tree casts a 24 ft shadow at the same time. How tall is the tree?",
+      "options": [
+        "50 ft",
+        "55 ft",
+        "60 ft",
+        "65 ft"
+      ],
+      "answer": "60 ft",
+      "explanation": "Set up the proportion. Tree height / 24 = 25 / 10. Cross multiply: tree height = (25 x 24) / 10 = 60 ft."
+    },
+    {
+      "id": 123,
+      "category": "Arithmetic Reasoning",
+      "question": "If 80 percent of a class of 30 students passed a test, how many passed?",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "27"
+      ],
+      "answer": "24",
+      "explanation": "Multiply class size by passing percentage. 30 x 0.80 = 24 students."
+    },
+    {
+      "id": 124,
+      "category": "Arithmetic Reasoning",
+      "question": "A factory produces 240 units in 8 hours. At the same rate, how many units would be produced in 12 hours?",
+      "options": [
+        "320",
+        "340",
+        "360",
+        "400"
+      ],
+      "answer": "360",
+      "explanation": "Rate is 240 / 8 = 30 units per hour. Then 30 x 12 = 360."
+    },
+    {
+      "id": 125,
+      "category": "Arithmetic Reasoning",
+      "question": "What is 3/4 of 80?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "answer": "60",
+      "explanation": "Multiply the fraction by the whole. 80 x 3 / 4 = 240 / 4 = 60."
+    },
+    {
+      "id": 126,
+      "category": "Mathematics Knowledge",
+      "question": "Solve for x: 4(x - 3) = 12",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "9"
+      ],
+      "answer": "6",
+      "explanation": "Distribute or divide: x - 3 = 3. Add 3 to both sides: x = 6."
+    },
+    {
+      "id": 127,
+      "category": "Mathematics Knowledge",
+      "question": "Simplify a to the 4th times a cubed.",
+      "options": [
+        "a to the 7th",
+        "a to the 12th",
+        "a to the 1st",
+        "2a to the 7th"
+      ],
+      "answer": "a to the 7th",
+      "explanation": "When multiplying like bases, add the exponents. 4 + 3 = 7."
+    },
+    {
+      "id": 128,
+      "category": "Mathematics Knowledge",
+      "question": "Simplify x to the 5th divided by x squared.",
+      "options": [
+        "x squared",
+        "x cubed",
+        "x to the 7th",
+        "x to the 10th"
+      ],
+      "answer": "x cubed",
+      "explanation": "When dividing like bases, subtract the exponents. 5 - 2 = 3."
+    },
+    {
+      "id": 129,
+      "category": "Mathematics Knowledge",
+      "question": "Find the distance between the points (0, 0) and (3, 4).",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "Distance equals the square root of (3 squared plus 4 squared) = square root of 25 = 5."
+    },
+    {
+      "id": 130,
+      "category": "Mathematics Knowledge",
+      "question": "What is the area of a triangle with base 10 and height 6?",
+      "options": [
+        "16",
+        "24",
+        "30",
+        "60"
+      ],
+      "answer": "30",
+      "explanation": "Area equals one half times base times height. 0.5 x 10 x 6 = 30."
+    },
+    {
+      "id": 131,
+      "category": "Mathematics Knowledge",
+      "question": "What is the volume of a cylinder with radius 2 and height 5?",
+      "options": [
+        "10 pi",
+        "20 pi",
+        "25 pi",
+        "40 pi"
+      ],
+      "answer": "20 pi",
+      "explanation": "Volume equals pi r squared h. pi x 4 x 5 = 20 pi."
+    },
+    {
+      "id": 132,
+      "category": "Mathematics Knowledge",
+      "question": "Solve: x divided by 4 equals 6.",
+      "options": [
+        "10",
+        "20",
+        "24",
+        "32"
+      ],
+      "answer": "24",
+      "explanation": "Multiply both sides by 4: x = 24."
+    },
+    {
+      "id": 133,
+      "category": "Mathematics Knowledge",
+      "question": "Rewrite x to the negative 2 power with a positive exponent.",
+      "options": [
+        "1 / x",
+        "1 / x squared",
+        "x squared",
+        "negative x squared"
+      ],
+      "answer": "1 / x squared",
+      "explanation": "A negative exponent means take the reciprocal. x to the negative 2 equals 1 over x squared."
+    },
+    {
+      "id": 134,
+      "category": "Mathematics Knowledge",
+      "question": "Multiply: (5x)(2x).",
+      "options": [
+        "7x",
+        "10x",
+        "10x squared",
+        "7x squared"
+      ],
+      "answer": "10x squared",
+      "explanation": "Multiply coefficients (5 x 2 = 10) and add exponents on the same base (1 + 1 = 2)."
+    },
+    {
+      "id": 135,
+      "category": "Mathematics Knowledge",
+      "question": "What is 3 factorial plus 4 factorial?",
+      "options": [
+        "12",
+        "24",
+        "30",
+        "36"
+      ],
+      "answer": "30",
+      "explanation": "3! equals 6 and 4! equals 24. 6 + 24 = 30."
+    },
+    {
+      "id": 136,
+      "category": "Mathematics Knowledge",
+      "question": "What is the value of cos(60 degrees)?",
+      "options": [
+        "0",
+        "0.5",
+        "0.707",
+        "1"
+      ],
+      "answer": "0.5",
+      "explanation": "From standard trig values, cos(60 degrees) equals 1/2 or 0.5."
+    },
+    {
+      "id": 137,
+      "category": "Mathematics Knowledge",
+      "question": "What is the value of tan(45 degrees)?",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "Undefined"
+      ],
+      "answer": "1",
+      "explanation": "Tan(45 degrees) equals sin(45) / cos(45) = (sqrt(2)/2) / (sqrt(2)/2) = 1."
+    },
+    {
+      "id": 138,
+      "category": "Mathematics Knowledge",
+      "question": "Factor: x squared plus 5x plus 6.",
+      "options": [
+        "(x + 1)(x + 6)",
+        "(x + 2)(x + 3)",
+        "(x - 2)(x - 3)",
+        "(x + 5)(x + 1)"
+      ],
+      "answer": "(x + 2)(x + 3)",
+      "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3. So the factors are (x + 2)(x + 3)."
+    },
+    {
+      "id": 139,
+      "category": "Mathematics Knowledge",
+      "question": "What is the midpoint of the segment connecting (2, 4) and (8, 10)?",
+      "options": [
+        "(4, 6)",
+        "(5, 7)",
+        "(5, 8)",
+        "(6, 8)"
+      ],
+      "answer": "(5, 7)",
+      "explanation": "Midpoint formula: average each coordinate. ((2 + 8) / 2, (4 + 10) / 2) = (5, 7)."
+    },
+    {
+      "id": 140,
+      "category": "Mathematics Knowledge",
+      "question": "Solve: |x - 3| = 5.",
+      "options": [
+        "x = 8 only",
+        "x = -2 only",
+        "x = 8 or x = -2",
+        "x = 3 or x = -3"
+      ],
+      "answer": "x = 8 or x = -2",
+      "explanation": "Absolute value equation splits into two: x - 3 = 5 gives x = 8, and x - 3 = -5 gives x = -2."
+    },
+    {
+      "id": 141,
+      "category": "Mathematics Knowledge",
+      "question": "What is the sum of the interior angles of a quadrilateral?",
+      "options": [
+        "180 degrees",
+        "270 degrees",
+        "360 degrees",
+        "540 degrees"
+      ],
+      "answer": "360 degrees",
+      "explanation": "For an n sided polygon, interior angles sum to (n - 2) x 180 degrees. For n = 4 that is 360 degrees."
+    },
+    {
+      "id": 142,
+      "category": "Mathematics Knowledge",
+      "question": "If the radius of a circle is doubled, by what factor does the area increase?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "answer": "4",
+      "explanation": "Area is proportional to radius squared. Doubling the radius multiplies the area by 2 squared, which is 4."
+    },
+    {
+      "id": 143,
+      "category": "Mathematics Knowledge",
+      "question": "Solve: x squared minus 4 = 0.",
+      "options": [
+        "x = 2 only",
+        "x = -2 only",
+        "x = 2 or x = -2",
+        "x = 4 only"
+      ],
+      "answer": "x = 2 or x = -2",
+      "explanation": "Add 4 then take the square root of both sides. Square root of 4 is plus or minus 2."
+    },
+    {
+      "id": 144,
+      "category": "Mathematics Knowledge",
+      "question": "Which equation form is called slope intercept form?",
+      "options": [
+        "Ax + By = C",
+        "y = mx + b",
+        "y - y1 = m(x - x1)",
+        "x squared + y squared = r squared"
+      ],
+      "answer": "y = mx + b",
+      "explanation": "Slope intercept form is y equals mx plus b, where m is the slope and b is the y intercept."
+    },
+    {
+      "id": 145,
+      "category": "Mathematics Knowledge",
+      "question": "How many sides does a regular hexagon have?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "A hexagon by definition has six sides. Hex is the Greek prefix for six."
+    },
+    {
+      "id": 146,
+      "category": "Mathematics Knowledge",
+      "question": "What is the measure of each interior angle of an equilateral triangle?",
+      "options": [
+        "45 degrees",
+        "60 degrees",
+        "75 degrees",
+        "90 degrees"
+      ],
+      "answer": "60 degrees",
+      "explanation": "All three angles are equal and sum to 180 degrees, so each is 180 / 3 = 60 degrees."
+    },
+    {
+      "id": 147,
+      "category": "Mathematics Knowledge",
+      "question": "What is the length of the diagonal of a square with side length 4?",
+      "options": [
+        "4",
+        "4 times the square root of 2",
+        "8",
+        "16"
+      ],
+      "answer": "4 times the square root of 2",
+      "explanation": "By the Pythagorean theorem, diagonal = side x sqrt(2). 4 times sqrt(2) is the diagonal."
+    },
+    {
+      "id": 148,
+      "category": "Mathematics Knowledge",
+      "question": "What is 0.25 plus 1/4 expressed as a decimal?",
+      "options": [
+        "0.25",
+        "0.50",
+        "0.75",
+        "1.00"
+      ],
+      "answer": "0.50",
+      "explanation": "1/4 equals 0.25, so 0.25 + 0.25 = 0.50."
+    },
+    {
+      "id": 149,
+      "category": "Mathematics Knowledge",
+      "question": "Compute (3 + 4i)(3 - 4i).",
+      "options": [
+        "7",
+        "9",
+        "16",
+        "25"
+      ],
+      "answer": "25",
+      "explanation": "This is a difference of squares: 3 squared minus (4i) squared = 9 minus -16 = 9 + 16 = 25."
+    },
+    {
+      "id": 150,
+      "category": "Mathematics Knowledge",
+      "question": "If 2x + 3y = 12 and x = 3, what is y?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": "2",
+      "explanation": "Substitute x = 3: 2(3) + 3y = 12, so 6 + 3y = 12 and 3y = 6, giving y = 2."
+    },
+    {
+      "id": 151,
+      "category": "Electronics Information",
+      "question": "What is the SI unit of electric charge?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Coulomb",
+        "Watt"
+      ],
+      "answer": "Coulomb",
+      "explanation": "The coulomb is the unit of electric charge. One coulomb equals one ampere flowing for one second."
+    },
+    {
+      "id": 152,
+      "category": "Electronics Information",
+      "question": "A short circuit is best described as which of the following?",
+      "options": [
+        "A break in the circuit",
+        "A path of very low resistance",
+        "A device that limits current",
+        "A component that stores charge"
+      ],
+      "answer": "A path of very low resistance",
+      "explanation": "A short circuit allows current to flow with little or no resistance, often causing dangerously high current."
+    },
+    {
+      "id": 153,
+      "category": "Electronics Information",
+      "question": "Using P equals V squared divided by R, what is the power dissipated by a 5 ohm resistor with 10 volts across it?",
+      "options": [
+        "10 W",
+        "20 W",
+        "50 W",
+        "100 W"
+      ],
+      "answer": "20 W",
+      "explanation": "P equals V squared over R. 10 squared is 100, divided by 5 equals 20 watts."
+    },
+    {
+      "id": 154,
+      "category": "Electronics Information",
+      "question": "If voltage doubles across a fixed resistor, what happens to the current?",
+      "options": [
+        "It halves",
+        "It stays the same",
+        "It doubles",
+        "It quadruples"
+      ],
+      "answer": "It doubles",
+      "explanation": "By Ohm's Law, current equals voltage divided by resistance. With R fixed, doubling V doubles I."
+    },
+    {
+      "id": 155,
+      "category": "Electronics Information",
+      "question": "In a step down transformer, which side has more turns?",
+      "options": [
+        "The primary side",
+        "The secondary side",
+        "Both sides equal",
+        "Neither side has windings"
+      ],
+      "answer": "The primary side",
+      "explanation": "Voltage scales with turns. A step down transformer has more primary turns and fewer secondary turns."
+    },
+    {
+      "id": 156,
+      "category": "Electronics Information",
+      "question": "How much current does a 100 watt light bulb draw at 120 volts?",
+      "options": [
+        "About 0.5 A",
+        "About 0.83 A",
+        "About 1.2 A",
+        "About 2 A"
+      ],
+      "answer": "About 0.83 A",
+      "explanation": "Current equals power divided by voltage. 100 / 120 is approximately 0.83 amperes."
+    },
+    {
+      "id": 157,
+      "category": "Electronics Information",
+      "question": "Which kind of materials have many free electrons?",
+      "options": [
+        "Insulators",
+        "Conductors",
+        "Vacuum",
+        "Dielectrics"
+      ],
+      "answer": "Conductors",
+      "explanation": "Conductors like copper have a sea of free electrons that allow current to flow easily."
+    },
+    {
+      "id": 158,
+      "category": "Electronics Information",
+      "question": "In a household US wiring system, what color is the neutral wire?",
+      "options": [
+        "Black",
+        "Red",
+        "White",
+        "Green"
+      ],
+      "answer": "White",
+      "explanation": "By NEC convention, neutral wires are white or gray. Hot wires are typically black or red."
+    },
+    {
+      "id": 159,
+      "category": "Electronics Information",
+      "question": "In a US household wiring system, what color is the ground wire usually?",
+      "options": [
+        "Black",
+        "Red",
+        "White",
+        "Green or bare copper"
+      ],
+      "answer": "Green or bare copper",
+      "explanation": "Ground wires are colored green, green with yellow stripe, or left as bare copper."
+    },
+    {
+      "id": 160,
+      "category": "Electronics Information",
+      "question": "A device that converts AC to DC is called a what?",
+      "options": [
+        "Inverter",
+        "Rectifier",
+        "Transformer",
+        "Capacitor"
+      ],
+      "answer": "Rectifier",
+      "explanation": "Rectifiers (typically using diodes) convert alternating current to direct current."
+    },
+    {
+      "id": 161,
+      "category": "Electronics Information",
+      "question": "A device that converts DC to AC is called a what?",
+      "options": [
+        "Inverter",
+        "Rectifier",
+        "Transformer",
+        "Resistor"
+      ],
+      "answer": "Inverter",
+      "explanation": "An inverter takes DC input (e.g., from a battery) and outputs AC, often used in solar systems and UPS units."
+    },
+    {
+      "id": 162,
+      "category": "Electronics Information",
+      "question": "A fuse in a circuit is designed to do what?",
+      "options": [
+        "Store charge",
+        "Reduce voltage",
+        "Break the circuit if current is too high",
+        "Convert AC to DC"
+      ],
+      "answer": "Break the circuit if current is too high",
+      "explanation": "A fuse contains a wire that melts at a rated current, protecting downstream components from overcurrent."
+    },
+    {
+      "id": 163,
+      "category": "Electronics Information",
+      "question": "How many bits are in one byte?",
+      "options": [
+        "1",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": "8",
+      "explanation": "By definition, a byte is 8 bits. Half a byte (4 bits) is sometimes called a nibble."
+    },
+    {
+      "id": 164,
+      "category": "Electronics Information",
+      "question": "Which of the following are basic logic gates?",
+      "options": [
+        "RAM, ROM, CPU",
+        "AND, OR, NOT",
+        "Volt, Amp, Ohm",
+        "Series, Parallel, Bridge"
+      ],
+      "answer": "AND, OR, NOT",
+      "explanation": "AND, OR, and NOT are the three fundamental boolean logic gates. NAND, NOR, and XOR are common derived gates."
+    },
+    {
+      "id": 165,
+      "category": "Electronics Information",
+      "question": "A device that measures electrical resistance is called a what?",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Ohmmeter",
+        "Galvanometer"
+      ],
+      "answer": "Ohmmeter",
+      "explanation": "Ohmmeters measure resistance in ohms. A multimeter combines voltmeter, ammeter, and ohmmeter."
+    },
+    {
+      "id": 166,
+      "category": "Electronics Information",
+      "question": "What is the standard unit symbol for capacitance?",
+      "options": [
+        "H",
+        "F",
+        "Hz",
+        "C"
+      ],
+      "answer": "F",
+      "explanation": "Capacitance is measured in farads, abbreviated F. C represents charge in coulombs."
+    },
+    {
+      "id": 167,
+      "category": "Electronics Information",
+      "question": "The speed of electric signals in a typical wire is closest to what?",
+      "options": [
+        "Speed of sound",
+        "10 percent of light speed",
+        "About 50 to 90 percent of light speed",
+        "Faster than light"
+      ],
+      "answer": "About 50 to 90 percent of light speed",
+      "explanation": "Signal propagation in a typical conductor is on the order of two thirds of the speed of light, depending on the medium."
+    },
+    {
+      "id": 168,
+      "category": "Electronics Information",
+      "question": "In a series circuit, the current at every point is what?",
+      "options": [
+        "Different at each component",
+        "The same throughout",
+        "Zero in some places",
+        "Inverted at the load"
+      ],
+      "answer": "The same throughout",
+      "explanation": "Series circuits have only one path for current, so the same current flows through every component."
+    },
+    {
+      "id": 169,
+      "category": "Electronics Information",
+      "question": "What does AWG stand for in wire sizing?",
+      "options": [
+        "American Watt Gauge",
+        "American Wire Gauge",
+        "Allowable Wattage Grade",
+        "Average Wire Gauge"
+      ],
+      "answer": "American Wire Gauge",
+      "explanation": "AWG is the standard US wire size scale. Higher AWG numbers correspond to thinner wires."
+    },
+    {
+      "id": 170,
+      "category": "Electronics Information",
+      "question": "Which AWG wire is physically thicker?",
+      "options": [
+        "12 AWG",
+        "14 AWG",
+        "20 AWG",
+        "22 AWG"
+      ],
+      "answer": "12 AWG",
+      "explanation": "Lower AWG numbers mean thicker wires. 12 AWG is thicker than 14, 20, or 22 AWG."
+    },
+    {
+      "id": 171,
+      "category": "Electronics Information",
+      "question": "A device that converts mechanical energy to electrical energy is called a what?",
+      "options": [
+        "Motor",
+        "Transformer",
+        "Generator",
+        "Capacitor"
+      ],
+      "answer": "Generator",
+      "explanation": "Generators turn shaft rotation into electrical output. Motors do the inverse: electrical input becomes mechanical motion."
+    },
+    {
+      "id": 172,
+      "category": "Electronics Information",
+      "question": "What is the resistance of a circuit that draws 5 amps from a 120 volt source?",
+      "options": [
+        "12 ohms",
+        "24 ohms",
+        "30 ohms",
+        "600 ohms"
+      ],
+      "answer": "24 ohms",
+      "explanation": "By Ohm's Law, R equals V divided by I. 120 / 5 equals 24 ohms."
+    },
+    {
+      "id": 173,
+      "category": "Electronics Information",
+      "question": "An inductor opposes a change in what?",
+      "options": [
+        "Voltage",
+        "Current",
+        "Resistance",
+        "Capacitance"
+      ],
+      "answer": "Current",
+      "explanation": "Inductors store energy in a magnetic field and resist changes in current passing through them."
+    },
+    {
+      "id": 174,
+      "category": "Electronics Information",
+      "question": "A capacitor in a DC circuit at steady state behaves like what?",
+      "options": [
+        "A short circuit",
+        "An open circuit",
+        "A constant current source",
+        "A resistor of fixed value"
+      ],
+      "answer": "An open circuit",
+      "explanation": "Once fully charged in DC, no more current flows through a capacitor, so it acts like an open circuit."
+    },
+    {
+      "id": 175,
+      "category": "Electronics Information",
+      "question": "Which component is commonly used to protect a circuit by tripping when current is excessive but can be reset?",
+      "options": [
+        "Fuse",
+        "Diode",
+        "Circuit breaker",
+        "Inductor"
+      ],
+      "answer": "Circuit breaker",
+      "explanation": "A circuit breaker mechanically opens during overcurrent events and can be reset, unlike a fuse which must be replaced."
+    },
+    {
+      "id": 176,
+      "category": "General Science",
+      "question": "What is the chemical symbol for sodium?",
+      "options": [
+        "S",
+        "So",
+        "Na",
+        "Sn"
+      ],
+      "answer": "Na",
+      "explanation": "Na comes from the Latin natrium. Sn is tin and S is sulfur."
+    },
+    {
+      "id": 177,
+      "category": "General Science",
+      "question": "What is the chemical symbol for potassium?",
+      "options": [
+        "P",
+        "Po",
+        "K",
+        "Pt"
+      ],
+      "answer": "K",
+      "explanation": "K is from the Latin word kalium. P is phosphorus and Pt is platinum."
+    },
+    {
+      "id": 178,
+      "category": "General Science",
+      "question": "What is the chemical formula for table salt?",
+      "options": [
+        "KCl",
+        "NaCl",
+        "CaCO3",
+        "H2SO4"
+      ],
+      "answer": "NaCl",
+      "explanation": "Common table salt is sodium chloride, NaCl, formed from sodium (Na) and chlorine (Cl)."
+    },
+    {
+      "id": 179,
+      "category": "General Science",
+      "question": "How many planets are in our solar system?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": "8",
+      "explanation": "Since 2006 the IAU classifies eight planets. Pluto was reclassified as a dwarf planet."
+    },
+    {
+      "id": 180,
+      "category": "General Science",
+      "question": "What galaxy contains our solar system?",
+      "options": [
+        "Andromeda",
+        "Triangulum",
+        "Milky Way",
+        "Whirlpool"
+      ],
+      "answer": "Milky Way",
+      "explanation": "Earth's solar system orbits the center of the Milky Way galaxy."
+    },
+    {
+      "id": 181,
+      "category": "General Science",
+      "question": "The phase change directly from solid to gas is called what?",
+      "options": [
+        "Condensation",
+        "Melting",
+        "Sublimation",
+        "Evaporation"
+      ],
+      "answer": "Sublimation",
+      "explanation": "Sublimation skips the liquid phase, as seen in dry ice (solid CO2) turning directly into gas."
+    },
+    {
+      "id": 182,
+      "category": "General Science",
+      "question": "The phase change from gas to liquid is called what?",
+      "options": [
+        "Evaporation",
+        "Condensation",
+        "Sublimation",
+        "Deposition"
+      ],
+      "answer": "Condensation",
+      "explanation": "Condensation occurs when gas molecules lose enough energy to become liquid, like dew forming on grass."
+    },
+    {
+      "id": 183,
+      "category": "General Science",
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": "Newton",
+      "explanation": "Force is measured in newtons. One newton accelerates a 1 kg mass at 1 meter per second squared."
+    },
+    {
+      "id": 184,
+      "category": "General Science",
+      "question": "What is the SI unit of energy?",
+      "options": [
+        "Newton",
+        "Watt",
+        "Joule",
+        "Pascal"
+      ],
+      "answer": "Joule",
+      "explanation": "Energy and work are both measured in joules. One joule equals one newton meter."
+    },
+    {
+      "id": 185,
+      "category": "General Science",
+      "question": "What is the SI unit of power?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Volt"
+      ],
+      "answer": "Watt",
+      "explanation": "Power is the rate of doing work. One watt equals one joule per second."
+    },
+    {
+      "id": 186,
+      "category": "General Science",
+      "question": "What is the primary function of red blood cells?",
+      "options": [
+        "Fight infection",
+        "Carry oxygen",
+        "Clot blood",
+        "Produce hormones"
+      ],
+      "answer": "Carry oxygen",
+      "explanation": "Red blood cells contain hemoglobin which binds oxygen and transports it to body tissues."
+    },
+    {
+      "id": 187,
+      "category": "General Science",
+      "question": "What is the primary function of white blood cells?",
+      "options": [
+        "Carry oxygen",
+        "Fight infection",
+        "Carry nutrients",
+        "Form scabs"
+      ],
+      "answer": "Fight infection",
+      "explanation": "White blood cells (leukocytes) are the body's primary defense against pathogens and foreign material."
+    },
+    {
+      "id": 188,
+      "category": "General Science",
+      "question": "How many teeth does a typical adult human have?",
+      "options": [
+        "20",
+        "28",
+        "32",
+        "36"
+      ],
+      "answer": "32",
+      "explanation": "A full adult set is 32 teeth, including four wisdom teeth, though many adults have wisdom teeth removed."
+    },
+    {
+      "id": 189,
+      "category": "General Science",
+      "question": "The process by which water vapor escapes through the leaves of a plant is called what?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Transpiration",
+        "Diffusion"
+      ],
+      "answer": "Transpiration",
+      "explanation": "Transpiration is the loss of water vapor through stomata in plant leaves. It helps draw water up from roots."
+    },
+    {
+      "id": 190,
+      "category": "General Science",
+      "question": "Which atmospheric layer contains most of our weather?",
+      "options": [
+        "Stratosphere",
+        "Mesosphere",
+        "Troposphere",
+        "Thermosphere"
+      ],
+      "answer": "Troposphere",
+      "explanation": "The troposphere is the lowest atmospheric layer and contains roughly 75 percent of the atmosphere's mass and almost all weather."
+    },
+    {
+      "id": 191,
+      "category": "General Science",
+      "question": "Which atmospheric layer contains the ozone layer?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "answer": "Stratosphere",
+      "explanation": "The ozone layer sits within the stratosphere, roughly 15 to 35 km above Earth's surface."
+    },
+    {
+      "id": 192,
+      "category": "General Science",
+      "question": "What is the most abundant element in the universe?",
+      "options": [
+        "Oxygen",
+        "Helium",
+        "Hydrogen",
+        "Carbon"
+      ],
+      "answer": "Hydrogen",
+      "explanation": "Hydrogen makes up about 75 percent of the universe's normal matter by mass."
+    },
+    {
+      "id": 193,
+      "category": "General Science",
+      "question": "What is the most abundant element in Earth's crust?",
+      "options": [
+        "Iron",
+        "Silicon",
+        "Oxygen",
+        "Aluminum"
+      ],
+      "answer": "Oxygen",
+      "explanation": "By mass, oxygen makes up about 46 percent of Earth's crust, mostly bound in silicate minerals."
+    },
+    {
+      "id": 194,
+      "category": "General Science",
+      "question": "Rocks formed from cooled magma or lava are classified as which type?",
+      "options": [
+        "Sedimentary",
+        "Metamorphic",
+        "Igneous",
+        "Chemical"
+      ],
+      "answer": "Igneous",
+      "explanation": "Igneous rocks form when molten rock (magma below the surface or lava above it) cools and solidifies."
+    },
+    {
+      "id": 195,
+      "category": "General Science",
+      "question": "What element has atomic number 1?",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Carbon",
+        "Oxygen"
+      ],
+      "answer": "Hydrogen",
+      "explanation": "Hydrogen has one proton, making its atomic number 1. It is the lightest and most abundant element."
+    },
+    {
+      "id": 196,
+      "category": "General Science",
+      "question": "What is the range of the pH scale?",
+      "options": [
+        "0 to 7",
+        "0 to 10",
+        "0 to 14",
+        "1 to 100"
+      ],
+      "answer": "0 to 14",
+      "explanation": "The standard pH scale runs from 0 (very acidic) to 14 (very basic), with 7 being neutral."
+    },
+    {
+      "id": 197,
+      "category": "General Science",
+      "question": "What is the smallest structural and functional unit of life?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Cell",
+        "Organ"
+      ],
+      "answer": "Cell",
+      "explanation": "All living organisms are made of one or more cells. The cell is the smallest unit considered alive."
+    },
+    {
+      "id": 198,
+      "category": "General Science",
+      "question": "Plants make their own food through what process?",
+      "options": [
+        "Respiration",
+        "Digestion",
+        "Photosynthesis",
+        "Fermentation"
+      ],
+      "answer": "Photosynthesis",
+      "explanation": "Photosynthesis uses light energy to convert carbon dioxide and water into glucose, releasing oxygen as a byproduct."
+    },
+    {
+      "id": 199,
+      "category": "General Science",
+      "question": "An animal with a backbone belongs to which group?",
+      "options": [
+        "Invertebrates",
+        "Vertebrates",
+        "Mollusks",
+        "Arthropods"
+      ],
+      "answer": "Vertebrates",
+      "explanation": "Vertebrates have a spinal column made of vertebrae. Mammals, birds, reptiles, amphibians, and fish are vertebrates."
+    },
+    {
+      "id": 200,
+      "category": "General Science",
+      "question": "Which gas do humans primarily exhale as a waste product of cellular respiration?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Methane"
+      ],
+      "answer": "Carbon Dioxide",
+      "explanation": "Cellular respiration produces CO2 as a waste product, which is exhaled. We inhale oxygen and exhale carbon dioxide."
+    },
+    {
+      "id": 201,
+      "category": "Word Knowledge",
+      "question": "Cordial most nearly means",
+      "options": [
+        "Friendly",
+        "Hostile",
+        "Indifferent",
+        "Loud"
+      ],
+      "answer": "Friendly",
+      "explanation": "Cordial means warm and friendly, often used to describe greetings or relationships."
+    },
+    {
+      "id": 202,
+      "category": "Word Knowledge",
+      "question": "Frugal most nearly means",
+      "options": [
+        "Wasteful",
+        "Thrifty",
+        "Generous",
+        "Hesitant"
+      ],
+      "answer": "Thrifty",
+      "explanation": "Frugal describes someone who is economical and avoids waste."
+    },
+    {
+      "id": 203,
+      "category": "Word Knowledge",
+      "question": "Diligent most nearly means",
+      "options": [
+        "Lazy",
+        "Forgetful",
+        "Hardworking",
+        "Reckless"
+      ],
+      "answer": "Hardworking",
+      "explanation": "Diligent describes persistent, careful, and hardworking effort."
+    },
+    {
+      "id": 204,
+      "category": "Word Knowledge",
+      "question": "Verify most nearly means",
+      "options": [
+        "Hide",
+        "Confirm",
+        "Reject",
+        "Estimate"
+      ],
+      "answer": "Confirm",
+      "explanation": "To verify is to establish the truth or accuracy of something."
+    },
+    {
+      "id": 205,
+      "category": "Word Knowledge",
+      "question": "Lucid most nearly means",
+      "options": [
+        "Confused",
+        "Bright",
+        "Clear",
+        "Loud"
+      ],
+      "answer": "Clear",
+      "explanation": "Lucid describes clear and easily understood expression or thought."
+    },
+    {
+      "id": 206,
+      "category": "Word Knowledge",
+      "question": "Tedious most nearly means",
+      "options": [
+        "Exciting",
+        "Brief",
+        "Boring",
+        "Useful"
+      ],
+      "answer": "Boring",
+      "explanation": "Tedious means tiresome and dull due to length or slowness."
+    },
+    {
+      "id": 207,
+      "category": "Word Knowledge",
+      "question": "Apprehensive most nearly means",
+      "options": [
+        "Excited",
+        "Anxious",
+        "Confident",
+        "Patient"
+      ],
+      "answer": "Anxious",
+      "explanation": "Apprehensive describes a fearful or uneasy feeling about something to come."
+    },
+    {
+      "id": 208,
+      "category": "Word Knowledge",
+      "question": "Concise most nearly means",
+      "options": [
+        "Brief",
+        "Lengthy",
+        "Detailed",
+        "Vague"
+      ],
+      "answer": "Brief",
+      "explanation": "Concise means expressed clearly in few words."
+    },
+    {
+      "id": 209,
+      "category": "Word Knowledge",
+      "question": "Augment most nearly means",
+      "options": [
+        "Reduce",
+        "Increase",
+        "Forget",
+        "Trade"
+      ],
+      "answer": "Increase",
+      "explanation": "To augment is to make something greater by adding to it."
+    },
+    {
+      "id": 210,
+      "category": "Word Knowledge",
+      "question": "Resilient most nearly means",
+      "options": [
+        "Fragile",
+        "Dishonest",
+        "Stubborn",
+        "Tough"
+      ],
+      "answer": "Tough",
+      "explanation": "Resilient describes the ability to recover quickly from hardship."
+    },
+    {
+      "id": 211,
+      "category": "Word Knowledge",
+      "question": "Obstinate most nearly means",
+      "options": [
+        "Patient",
+        "Stubborn",
+        "Friendly",
+        "Witty"
+      ],
+      "answer": "Stubborn",
+      "explanation": "Obstinate describes someone who refuses to change their mind despite reason."
+    },
+    {
+      "id": 212,
+      "category": "Word Knowledge",
+      "question": "Ambiguous most nearly means",
+      "options": [
+        "Clear",
+        "Unclear",
+        "Loud",
+        "Permanent"
+      ],
+      "answer": "Unclear",
+      "explanation": "Ambiguous means open to multiple interpretations and lacking clarity."
+    },
+    {
+      "id": 213,
+      "category": "Word Knowledge",
+      "question": "Candid most nearly means",
+      "options": [
+        "Hidden",
+        "Honest",
+        "Cruel",
+        "Polite"
+      ],
+      "answer": "Honest",
+      "explanation": "Candid means truthful and straightforward, even when uncomfortable."
+    },
+    {
+      "id": 214,
+      "category": "Word Knowledge",
+      "question": "Meticulous most nearly means",
+      "options": [
+        "Thorough",
+        "Sloppy",
+        "Quick",
+        "Loud"
+      ],
+      "answer": "Thorough",
+      "explanation": "Meticulous describes paying very precise and careful attention to details."
+    },
+    {
+      "id": 215,
+      "category": "Word Knowledge",
+      "question": "Reluctant most nearly means",
+      "options": [
+        "Eager",
+        "Hesitant",
+        "Bold",
+        "Tired"
+      ],
+      "answer": "Hesitant",
+      "explanation": "Reluctant means unwilling and hesitant to act."
+    },
+    {
+      "id": 216,
+      "category": "Word Knowledge",
+      "question": "Tranquil most nearly means",
+      "options": [
+        "Calm",
+        "Loud",
+        "Anxious",
+        "Cold"
+      ],
+      "answer": "Calm",
+      "explanation": "Tranquil means free from disturbance or peaceful."
+    },
+    {
+      "id": 217,
+      "category": "Word Knowledge",
+      "question": "Adamant most nearly means",
+      "options": [
+        "Flexible",
+        "Insistent",
+        "Curious",
+        "Confused"
+      ],
+      "answer": "Insistent",
+      "explanation": "Adamant means refusing to be persuaded or to change one's mind."
+    },
+    {
+      "id": 218,
+      "category": "Word Knowledge",
+      "question": "Subtle most nearly means",
+      "options": [
+        "Obvious",
+        "Bright",
+        "Faint",
+        "Heavy"
+      ],
+      "answer": "Faint",
+      "explanation": "Subtle means so delicate or precise it is hard to detect."
+    },
+    {
+      "id": 219,
+      "category": "Word Knowledge",
+      "question": "Defer most nearly means",
+      "options": [
+        "Cancel",
+        "Hurry",
+        "Postpone",
+        "Argue"
+      ],
+      "answer": "Postpone",
+      "explanation": "To defer is to put off or delay until a later time."
+    },
+    {
+      "id": 220,
+      "category": "Word Knowledge",
+      "question": "Sparse most nearly means",
+      "options": [
+        "Crowded",
+        "Scattered",
+        "Wealthy",
+        "Wet"
+      ],
+      "answer": "Scattered",
+      "explanation": "Sparse means thinly spread or scarce."
+    },
+    {
+      "id": 221,
+      "category": "Word Knowledge",
+      "question": "Pertinent most nearly means",
+      "options": [
+        "Annoying",
+        "Relevant",
+        "Sharp",
+        "Random"
+      ],
+      "answer": "Relevant",
+      "explanation": "Pertinent means directly related to the matter at hand."
+    },
+    {
+      "id": 222,
+      "category": "Word Knowledge",
+      "question": "Coerce most nearly means",
+      "options": [
+        "Persuade gently",
+        "Force",
+        "Trick",
+        "Hide"
+      ],
+      "answer": "Force",
+      "explanation": "To coerce is to persuade an unwilling person to do something through threat or pressure."
+    },
+    {
+      "id": 223,
+      "category": "Word Knowledge",
+      "question": "The captain was steadfast in his decision. Steadfast most nearly means",
+      "options": [
+        "Unsure",
+        "Loyal",
+        "Firm",
+        "Loud"
+      ],
+      "answer": "Firm",
+      "explanation": "Steadfast describes someone who is firm and unchanging in commitment."
+    },
+    {
+      "id": 224,
+      "category": "Word Knowledge",
+      "question": "The new soldier was vigilant during his watch. Vigilant most nearly means",
+      "options": [
+        "Sleepy",
+        "Watchful",
+        "Bored",
+        "Friendly"
+      ],
+      "answer": "Watchful",
+      "explanation": "Vigilant means keeping careful watch for possible danger or difficulties."
+    },
+    {
+      "id": 225,
+      "category": "Word Knowledge",
+      "question": "Robust most nearly means",
+      "options": [
+        "Weak",
+        "Strong",
+        "Quiet",
+        "Polite"
+      ],
+      "answer": "Strong",
+      "explanation": "Robust means strong, healthy, and vigorous."
+    },
+    {
+      "id": 226,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Discipline is the foundation of military service. Without discipline, the most advanced weapons and the most talented soldiers cannot function as a unit. Drill, uniform standards, and chains of command exist to forge a group of individuals into a cohesive force.\"\n\nWhat is the main idea of the passage?",
+      "options": [
+        "Weapons are more important than people",
+        "Discipline is essential for military effectiveness",
+        "Uniforms make soldiers look intimidating",
+        "Soldiers should be allowed to act independently"
+      ],
+      "answer": "Discipline is essential for military effectiveness",
+      "explanation": "The passage repeatedly emphasizes that discipline transforms individuals into a cohesive force, making it the central idea."
+    },
+    {
+      "id": 227,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"The Space Force was established as a separate service in 2019 to focus on space operations. Its mission includes protecting US assets in orbit, monitoring potential threats, and supporting joint operations. Guardians work with sophisticated satellite and cyber systems daily.\"\n\nWhen was the Space Force established?",
+      "options": [
+        "1947",
+        "1989",
+        "2019",
+        "2024"
+      ],
+      "answer": "2019",
+      "explanation": "The passage states the Space Force was established in 2019."
+    },
+    {
+      "id": 228,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Effective leaders communicate clearly. They explain not only what must be done, but why it matters. When subordinates understand the purpose behind an order, they execute with more initiative and judgment than if they were merely following instructions.\"\n\nAccording to the passage, why should leaders explain the purpose of orders?",
+      "options": [
+        "To take longer to give instructions",
+        "To improve initiative and judgment in subordinates",
+        "Because regulations require it",
+        "To reduce the number of orders given"
+      ],
+      "answer": "To improve initiative and judgment in subordinates",
+      "explanation": "The passage states that understanding purpose improves how subordinates execute, citing initiative and judgment."
+    },
+    {
+      "id": 229,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Cybersecurity is no longer optional. Every organization, from small businesses to national defense agencies, depends on networks and data. A single compromised credential can lead to stolen secrets, financial loss, or operational disruption.\"\n\nWhich of the following is NOT mentioned as a consequence of compromised credentials?",
+      "options": [
+        "Stolen secrets",
+        "Financial loss",
+        "Operational disruption",
+        "Hardware damage"
+      ],
+      "answer": "Hardware damage",
+      "explanation": "The passage lists stolen secrets, financial loss, and operational disruption, but not hardware damage."
+    },
+    {
+      "id": 230,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Physical fitness in the military is not vanity. It is operational readiness. A fit force endures hardship, recovers from injury faster, and performs longer under stress. Daily PT is an investment in mission capability.\"\n\nWhat is the author's main argument?",
+      "options": [
+        "Soldiers should look strong",
+        "Physical fitness directly supports mission performance",
+        "PT should be reduced to save time",
+        "Only certain jobs require fitness"
+      ],
+      "answer": "Physical fitness directly supports mission performance",
+      "explanation": "The passage frames fitness as an investment in mission capability, making it the central argument."
+    },
+    {
+      "id": 231,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"In the 1950s, integrated circuits were experimental. Today, billions of transistors fit on a chip the size of a fingernail. This exponential growth, often called Moore's Law, has driven the digital revolution.\"\n\nWhat is Moore's Law described as in the passage?",
+      "options": [
+        "A federal regulation",
+        "An exponential growth pattern in chip transistor density",
+        "A 1950s engineering manual",
+        "A cybersecurity policy"
+      ],
+      "answer": "An exponential growth pattern in chip transistor density",
+      "explanation": "The passage describes Moore's Law as the exponential growth of transistors per chip."
+    },
+    {
+      "id": 232,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Pilots train extensively in simulators before flying actual aircraft. Simulators allow them to practice emergency procedures safely, repeating scenarios until responses become automatic. This reduces both training cost and the risk to lives and equipment.\"\n\nWhy are simulators valuable for pilot training?",
+      "options": [
+        "They are faster than real flights",
+        "They allow safe practice that reduces cost and risk",
+        "They replace real flight entirely",
+        "They are cheaper than textbooks"
+      ],
+      "answer": "They allow safe practice that reduces cost and risk",
+      "explanation": "The passage explicitly states that simulators reduce cost and risk while providing safe practice."
+    },
+    {
+      "id": 233,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Many cybersecurity breaches are caused not by sophisticated technical attacks, but by social engineering. An attacker might pretend to be IT support and ask for a password, or send a convincing phishing email. Training and skepticism are the best defenses.\"\n\nAccording to the passage, what is the best defense against social engineering?",
+      "options": [
+        "Better firewalls",
+        "Stronger encryption",
+        "Training and skepticism",
+        "Faster computers"
+      ],
+      "answer": "Training and skepticism",
+      "explanation": "The final sentence directly identifies training and skepticism as the best defenses."
+    },
+    {
+      "id": 234,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"The submarine was first proven in combat during World War I, but its strategic role expanded in World War II. Modern nuclear submarines can stay submerged for months, making them a key element of nuclear deterrence.\"\n\nWhich conclusion is best supported by the passage?",
+      "options": [
+        "Submarines were invented in World War II",
+        "Submarines today play a strategic deterrence role",
+        "Diesel submarines outperform nuclear ones",
+        "Submarines no longer matter to navies"
+      ],
+      "answer": "Submarines today play a strategic deterrence role",
+      "explanation": "The passage explicitly says modern nuclear submarines are a key element of nuclear deterrence."
+    },
+    {
+      "id": 235,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Many young officers fear that asking questions makes them look weak. In fact, the most respected leaders ask the most questions. Leaders who pretend to know everything close themselves off from learning, and over time their judgment suffers.\"\n\nWhat is the author's main point?",
+      "options": [
+        "Asking questions strengthens, not weakens, leadership",
+        "Officers should never admit uncertainty",
+        "Junior officers should know everything before promotion",
+        "Only senior officers should ask questions"
+      ],
+      "answer": "Asking questions strengthens, not weakens, leadership",
+      "explanation": "The passage argues that questioning is a strength of effective leaders."
+    },
+    {
+      "id": 236,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Logistics is the unglamorous backbone of every campaign. Battles may be won by tactics, but wars are won by who can sustain forces in the field longer. Without fuel, food, and ammunition, the most skilled army grinds to a halt.\"\n\nWhat is the author's central claim?",
+      "options": [
+        "Tactics are more important than logistics",
+        "Logistics determines whether wars can be won",
+        "Soldiers do not need food in modern combat",
+        "Glamorous units are the most effective"
+      ],
+      "answer": "Logistics determines whether wars can be won",
+      "explanation": "The passage argues that wars are won by sustainment, making logistics the deciding factor."
+    },
+    {
+      "id": 237,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Renewable energy sources, including solar and wind, now generate a significant share of electricity in many countries. Costs have fallen sharply over the past decade, making them competitive with fossil fuels in many markets.\"\n\nWhy have renewables become competitive with fossil fuels?",
+      "options": [
+        "Government bans on fossil fuels",
+        "Sharply falling renewable costs",
+        "Higher demand for nuclear power",
+        "Increased rainfall worldwide"
+      ],
+      "answer": "Sharply falling renewable costs",
+      "explanation": "The passage attributes the competitiveness specifically to falling costs over the past decade."
+    },
+    {
+      "id": 238,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Effective communication in any team requires more than speaking clearly. It also requires active listening. A leader who only broadcasts but never receives feedback will miss critical information from the people closest to the work.\"\n\nWhat does the passage suggest about leaders who do not listen?",
+      "options": [
+        "They are more decisive",
+        "They miss critical information from those doing the work",
+        "They communicate more effectively",
+        "They have higher promotion rates"
+      ],
+      "answer": "They miss critical information from those doing the work",
+      "explanation": "The passage directly states that non listening leaders miss information from those closest to the work."
+    },
+    {
+      "id": 239,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"GPS, originally designed for military navigation, now powers everything from smartphone maps to precision agriculture. The system relies on a constellation of satellites that broadcast precise time signals.\"\n\nHow does GPS work according to the passage?",
+      "options": [
+        "Through ground based radio towers only",
+        "Via a constellation of satellites broadcasting precise time signals",
+        "Through underwater sonar",
+        "Using cell tower triangulation only"
+      ],
+      "answer": "Via a constellation of satellites broadcasting precise time signals",
+      "explanation": "The passage describes the GPS satellite constellation broadcasting precise time."
+    },
+    {
+      "id": 240,
+      "category": "Paragraph Comprehension",
+      "question": "Read the passage and answer:\n\"Every officer should learn to give clear written orders. A poorly worded directive causes delay, confusion, and sometimes mission failure. Clarity in writing is itself a force multiplier.\"\n\nWhat can a poorly worded directive cause?",
+      "options": [
+        "Faster execution",
+        "Delay, confusion, and possible mission failure",
+        "Improved morale",
+        "Better awards"
+      ],
+      "answer": "Delay, confusion, and possible mission failure",
+      "explanation": "The passage lists exactly these three consequences of poor directives."
+    },
+    {
+      "id": 241,
+      "category": "Auto Information",
+      "question": "What is the primary function of an alternator in a vehicle?",
+      "options": [
+        "Cool the engine",
+        "Generate electrical power and charge the battery",
+        "Compress the fuel",
+        "Reduce exhaust emissions"
+      ],
+      "answer": "Generate electrical power and charge the battery",
+      "explanation": "The alternator converts mechanical engine motion into electrical energy that powers the car and recharges the battery."
+    },
+    {
+      "id": 242,
+      "category": "Auto Information",
+      "question": "What does a catalytic converter do?",
+      "options": [
+        "Increase horsepower",
+        "Reduce harmful exhaust emissions",
+        "Cool the engine oil",
+        "Filter intake air"
+      ],
+      "answer": "Reduce harmful exhaust emissions",
+      "explanation": "Catalytic converters use precious metals to convert harmful gases like CO and NOx into less toxic compounds."
+    },
+    {
+      "id": 243,
+      "category": "Auto Information",
+      "question": "What is the main purpose of engine oil?",
+      "options": [
+        "Fuel the engine",
+        "Cool the alternator",
+        "Lubricate moving parts and reduce friction",
+        "Inflate tires"
+      ],
+      "answer": "Lubricate moving parts and reduce friction",
+      "explanation": "Engine oil reduces wear by lubricating moving parts. It also helps cool and clean components."
+    },
+    {
+      "id": 244,
+      "category": "Auto Information",
+      "question": "ABS stands for what in automotive terms?",
+      "options": [
+        "Auto Battery System",
+        "Anti-lock Braking System",
+        "Air Bag Sensor",
+        "Auxiliary Belt System"
+      ],
+      "answer": "Anti-lock Braking System",
+      "explanation": "ABS prevents the wheels from locking up during hard braking, helping the driver maintain steering control."
+    },
+    {
+      "id": 245,
+      "category": "Auto Information",
+      "question": "In a four stroke engine, what is the correct order of strokes?",
+      "options": [
+        "Compression, Intake, Exhaust, Power",
+        "Intake, Compression, Power, Exhaust",
+        "Power, Intake, Exhaust, Compression",
+        "Intake, Power, Compression, Exhaust"
+      ],
+      "answer": "Intake, Compression, Power, Exhaust",
+      "explanation": "The four stroke cycle is Intake (air/fuel in), Compression, Power (combustion), Exhaust."
+    },
+    {
+      "id": 246,
+      "category": "Auto Information",
+      "question": "What is the purpose of a spark plug?",
+      "options": [
+        "Cool the cylinder",
+        "Ignite the air/fuel mixture",
+        "Filter the engine oil",
+        "Drive the camshaft"
+      ],
+      "answer": "Ignite the air/fuel mixture",
+      "explanation": "The spark plug delivers a high voltage spark that ignites the compressed air/fuel mixture in a gasoline engine."
+    },
+    {
+      "id": 247,
+      "category": "Auto Information",
+      "question": "What does the transmission do in a vehicle?",
+      "options": [
+        "Stores fuel",
+        "Transfers engine power to the wheels at varying ratios",
+        "Cools the brakes",
+        "Generates electrical power"
+      ],
+      "answer": "Transfers engine power to the wheels at varying ratios",
+      "explanation": "The transmission matches engine output to required wheel speed and torque through different gear ratios."
+    },
+    {
+      "id": 248,
+      "category": "Auto Information",
+      "question": "What is the primary function of engine coolant?",
+      "options": [
+        "Lubricate pistons",
+        "Prevent the engine from overheating",
+        "Power the AC compressor",
+        "Reduce noise"
+      ],
+      "answer": "Prevent the engine from overheating",
+      "explanation": "Coolant absorbs heat from the engine block and dissipates it through the radiator."
+    },
+    {
+      "id": 249,
+      "category": "Auto Information",
+      "question": "What does a differential allow?",
+      "options": [
+        "Wheels to turn at different speeds during turns",
+        "The engine to start",
+        "The radiator to spin",
+        "The clutch to disengage"
+      ],
+      "answer": "Wheels to turn at different speeds during turns",
+      "explanation": "The differential lets drive wheels rotate at different speeds, which is necessary when cornering."
+    },
+    {
+      "id": 250,
+      "category": "Auto Information",
+      "question": "CVT stands for what?",
+      "options": [
+        "Carburetor Valve Timing",
+        "Continuously Variable Transmission",
+        "Combustion Vapor Tube",
+        "Crankshaft Velocity Test"
+      ],
+      "answer": "Continuously Variable Transmission",
+      "explanation": "A CVT uses pulleys and a belt or chain to provide an infinite number of effective gear ratios."
+    },
+    {
+      "id": 251,
+      "category": "Auto Information",
+      "question": "Which gauge typically measures engine RPM?",
+      "options": [
+        "Speedometer",
+        "Tachometer",
+        "Odometer",
+        "Voltmeter"
+      ],
+      "answer": "Tachometer",
+      "explanation": "The tachometer displays revolutions per minute of the crankshaft."
+    },
+    {
+      "id": 252,
+      "category": "Auto Information",
+      "question": "What does the fuel injector do?",
+      "options": [
+        "Burns fuel directly",
+        "Sprays fuel into the intake or combustion chamber",
+        "Stores fuel in the tank",
+        "Blocks fuel during shutdown"
+      ],
+      "answer": "Sprays fuel into the intake or combustion chamber",
+      "explanation": "Fuel injectors atomize fuel and deliver a precise spray into the engine for efficient combustion."
+    },
+    {
+      "id": 253,
+      "category": "Auto Information",
+      "question": "The timing belt or chain synchronizes which two components?",
+      "options": [
+        "Alternator and battery",
+        "Crankshaft and camshaft",
+        "Distributor and oil pump",
+        "Fuel pump and exhaust"
+      ],
+      "answer": "Crankshaft and camshaft",
+      "explanation": "The timing belt keeps valve operation in sync with piston movement to prevent collision and maintain efficiency."
+    },
+    {
+      "id": 254,
+      "category": "Auto Information",
+      "question": "Most car batteries are rated at what voltage?",
+      "options": [
+        "6 volts",
+        "12 volts",
+        "24 volts",
+        "120 volts"
+      ],
+      "answer": "12 volts",
+      "explanation": "Standard automotive batteries supply 12 volts DC, made up of six cells of about 2 volts each."
+    },
+    {
+      "id": 255,
+      "category": "Auto Information",
+      "question": "What does the crankshaft do?",
+      "options": [
+        "Filters air",
+        "Converts piston motion into rotational motion",
+        "Stores brake fluid",
+        "Holds the steering column"
+      ],
+      "answer": "Converts piston motion into rotational motion",
+      "explanation": "The crankshaft transforms the linear up and down motion of the pistons into rotation that drives the transmission."
+    },
+    {
+      "id": 256,
+      "category": "Auto Information",
+      "question": "Compared to gasoline engines, diesel engines compress air to what?",
+      "options": [
+        "Lower compression ratios",
+        "Higher compression ratios",
+        "Equal compression ratios",
+        "No compression at all"
+      ],
+      "answer": "Higher compression ratios",
+      "explanation": "Diesel engines compress air much more, raising temperature high enough to ignite injected fuel without spark plugs."
+    },
+    {
+      "id": 257,
+      "category": "Auto Information",
+      "question": "What is the purpose of the starter motor?",
+      "options": [
+        "Spin the engine fast enough to begin running",
+        "Turn on the headlights",
+        "Apply the brakes",
+        "Eject the key"
+      ],
+      "answer": "Spin the engine fast enough to begin running",
+      "explanation": "The starter motor cranks the engine until combustion takes over and the engine runs on its own."
+    },
+    {
+      "id": 258,
+      "category": "Auto Information",
+      "question": "ABS prevents what during hard braking?",
+      "options": [
+        "Engine stalling",
+        "Wheel lockup",
+        "Coolant boiling",
+        "Tire pressure loss"
+      ],
+      "answer": "Wheel lockup",
+      "explanation": "ABS pulses the brakes rapidly to keep the wheels rotating, preserving steering control."
+    },
+    {
+      "id": 259,
+      "category": "Auto Information",
+      "question": "OBD II is a system used for what?",
+      "options": [
+        "Onboard diagnostics",
+        "Off-board navigation",
+        "Outboard biking devices",
+        "Optical bus drivers"
+      ],
+      "answer": "Onboard diagnostics",
+      "explanation": "OBD II is a standardized diagnostic system on US vehicles since 1996, used to read engine and emissions trouble codes."
+    },
+    {
+      "id": 260,
+      "category": "Auto Information",
+      "question": "What does the air filter do?",
+      "options": [
+        "Filter coolant",
+        "Filter the air entering the engine",
+        "Filter exhaust gases",
+        "Filter brake fluid"
+      ],
+      "answer": "Filter the air entering the engine",
+      "explanation": "The air filter blocks dust and debris from reaching the engine, protecting cylinders and sensors."
+    },
+    {
+      "id": 261,
+      "category": "Auto Information",
+      "question": "What is the function of the radiator?",
+      "options": [
+        "Generate electricity",
+        "Dissipate heat from the coolant",
+        "Store fuel",
+        "Filter exhaust"
+      ],
+      "answer": "Dissipate heat from the coolant",
+      "explanation": "The radiator transfers heat from the engine coolant to the surrounding air via thin fins."
+    },
+    {
+      "id": 262,
+      "category": "Auto Information",
+      "question": "Which component sends current to the spark plugs?",
+      "options": [
+        "Carburetor",
+        "Ignition coil",
+        "Alternator",
+        "Fuel filter"
+      ],
+      "answer": "Ignition coil",
+      "explanation": "The ignition coil steps up battery voltage to tens of thousands of volts to fire the spark plugs."
+    },
+    {
+      "id": 263,
+      "category": "Auto Information",
+      "question": "FWD, RWD, and AWD describe what about a vehicle?",
+      "options": [
+        "Fuel type",
+        "Drive wheel configuration",
+        "Brake type",
+        "Tire size"
+      ],
+      "answer": "Drive wheel configuration",
+      "explanation": "These abbreviations describe whether the front, rear, or all wheels receive power from the engine."
+    },
+    {
+      "id": 264,
+      "category": "Auto Information",
+      "question": "Why is tire rotation recommended periodically?",
+      "options": [
+        "To match new wheels",
+        "To even out tread wear and extend tire life",
+        "To balance the brakes",
+        "To increase fuel"
+      ],
+      "answer": "To even out tread wear and extend tire life",
+      "explanation": "Different positions on a vehicle wear tires differently, and rotation evens out the wear over time."
+    },
+    {
+      "id": 265,
+      "category": "Auto Information",
+      "question": "Which fluid usually appears amber and is used in the braking system?",
+      "options": [
+        "Engine oil",
+        "Brake fluid",
+        "Power steering fluid",
+        "Coolant"
+      ],
+      "answer": "Brake fluid",
+      "explanation": "Brake fluid is hydraulic fluid that transfers force from the brake pedal to the brake calipers."
+    },
+    {
+      "id": 266,
+      "category": "Shop Information",
+      "question": "A claw hammer is primarily used for what?",
+      "options": [
+        "Driving and pulling nails",
+        "Cutting wood",
+        "Tightening bolts",
+        "Sanding surfaces"
+      ],
+      "answer": "Driving and pulling nails",
+      "explanation": "The flat face drives nails. The curved claw on the back pulls nails out."
+    },
+    {
+      "id": 267,
+      "category": "Shop Information",
+      "question": "A Phillips screwdriver has what tip shape?",
+      "options": [
+        "Flat blade",
+        "Cross or X shape",
+        "Hexagonal",
+        "Square"
+      ],
+      "answer": "Cross or X shape",
+      "explanation": "Phillips heads have a cross or X-shaped recess. Flathead screws are slotted, and hex/Allen are hexagonal."
+    },
+    {
+      "id": 268,
+      "category": "Shop Information",
+      "question": "A crescent wrench is also known as what?",
+      "options": [
+        "Box wrench",
+        "Adjustable wrench",
+        "Pipe wrench",
+        "Allen key"
+      ],
+      "answer": "Adjustable wrench",
+      "explanation": "A crescent wrench has a movable jaw and is the most common type of adjustable wrench."
+    },
+    {
+      "id": 269,
+      "category": "Shop Information",
+      "question": "What is the kerf of a saw?",
+      "options": [
+        "The handle",
+        "The width of the cut the blade makes",
+        "The angle of the teeth",
+        "The cooling fan"
+      ],
+      "answer": "The width of the cut the blade makes",
+      "explanation": "Kerf refers to the width of the slot a saw blade removes when cutting. Thinner kerf means less material loss."
+    },
+    {
+      "id": 270,
+      "category": "Shop Information",
+      "question": "Plywood is typically made of what?",
+      "options": [
+        "Solid timber boards",
+        "Layers of wood veneer glued together",
+        "Compressed sawdust only",
+        "Plastic and metal"
+      ],
+      "answer": "Layers of wood veneer glued together",
+      "explanation": "Plywood is built from thin wood veneers (plies) glued with grain at alternating angles for strength."
+    },
+    {
+      "id": 271,
+      "category": "Shop Information",
+      "question": "What does a miter saw specialize in?",
+      "options": [
+        "Curved cuts",
+        "Angled crosscuts",
+        "Drilling holes",
+        "Sanding"
+      ],
+      "answer": "Angled crosscuts",
+      "explanation": "A miter saw is designed for accurate angled cuts, often 45 and 90 degrees, in trim and framing."
+    },
+    {
+      "id": 272,
+      "category": "Shop Information",
+      "question": "With sandpaper, a higher grit number indicates what?",
+      "options": [
+        "Coarser grit",
+        "Finer grit",
+        "Larger sheet size",
+        "Stronger backing"
+      ],
+      "answer": "Finer grit",
+      "explanation": "Higher grit numbers mean smaller abrasive particles, producing a finer finish."
+    },
+    {
+      "id": 273,
+      "category": "Shop Information",
+      "question": "A level is used to determine what?",
+      "options": [
+        "Strength of a beam",
+        "Whether a surface is horizontal or vertical",
+        "Hardness of a material",
+        "Speed of rotation"
+      ],
+      "answer": "Whether a surface is horizontal or vertical",
+      "explanation": "A bubble level uses a tube of liquid with a bubble that centers when the tool is level."
+    },
+    {
+      "id": 274,
+      "category": "Shop Information",
+      "question": "A plumb bob hanging by a string is used to find what?",
+      "options": [
+        "A horizontal line",
+        "A true vertical line",
+        "A diagonal line",
+        "The weight of an object"
+      ],
+      "answer": "A true vertical line",
+      "explanation": "A plumb bob uses gravity to indicate true vertical, used in framing and surveying."
+    },
+    {
+      "id": 275,
+      "category": "Shop Information",
+      "question": "A chisel is used to do what to wood?",
+      "options": [
+        "Drill holes",
+        "Carve, shape, or remove material",
+        "Apply paint",
+        "Measure thickness"
+      ],
+      "answer": "Carve, shape, or remove material",
+      "explanation": "A chisel is a sharpened blade tapped with a mallet to cut or shape wood, stone, or metal."
+    },
+    {
+      "id": 276,
+      "category": "Shop Information",
+      "question": "A jigsaw is best suited for what type of cut?",
+      "options": [
+        "Long straight cuts",
+        "Curved or intricate cuts",
+        "Sanding edges",
+        "Drilling holes"
+      ],
+      "answer": "Curved or intricate cuts",
+      "explanation": "Jigsaws use a small reciprocating blade ideal for cutting curves and irregular shapes."
+    },
+    {
+      "id": 277,
+      "category": "Shop Information",
+      "question": "On a circular saw blade, more teeth produces what?",
+      "options": [
+        "A rougher cut",
+        "A smoother but slower cut",
+        "More dust",
+        "A wider kerf"
+      ],
+      "answer": "A smoother but slower cut",
+      "explanation": "Higher tooth counts make finer cuts but feed slower; fewer teeth cut faster but rougher."
+    },
+    {
+      "id": 278,
+      "category": "Shop Information",
+      "question": "A nominal 2x4 piece of lumber actually measures approximately what?",
+      "options": [
+        "2 inches by 4 inches",
+        "1.5 inches by 3.5 inches",
+        "3 inches by 5 inches",
+        "1 inch by 2 inches"
+      ],
+      "answer": "1.5 inches by 3.5 inches",
+      "explanation": "Nominal sizes refer to rough cut. After drying and planing, a 2x4 measures roughly 1.5 by 3.5 inches."
+    },
+    {
+      "id": 279,
+      "category": "Shop Information",
+      "question": "Pliers are most commonly used to do what?",
+      "options": [
+        "Drive screws",
+        "Grip, bend, or cut wire",
+        "Apply paint",
+        "Measure angles"
+      ],
+      "answer": "Grip, bend, or cut wire",
+      "explanation": "Pliers are gripping tools. Many include cutting jaws for wire."
+    },
+    {
+      "id": 280,
+      "category": "Shop Information",
+      "question": "Vise grips are also called what?",
+      "options": [
+        "Locking pliers",
+        "Channel locks",
+        "Spanner wrenches",
+        "Bench clamps"
+      ],
+      "answer": "Locking pliers",
+      "explanation": "Vise grips clamp onto a workpiece and lock in place using an adjustable cam mechanism."
+    },
+    {
+      "id": 281,
+      "category": "Shop Information",
+      "question": "A C clamp is primarily used to do what?",
+      "options": [
+        "Cut metal",
+        "Hold pieces of material together while gluing or working",
+        "Drill holes",
+        "Sharpen blades"
+      ],
+      "answer": "Hold pieces of material together while gluing or working",
+      "explanation": "C clamps press two surfaces together with a screw, often used during glue ups."
+    },
+    {
+      "id": 282,
+      "category": "Shop Information",
+      "question": "A hacksaw is best for cutting what material?",
+      "options": [
+        "Hardwood",
+        "Metal",
+        "Drywall",
+        "Concrete"
+      ],
+      "answer": "Metal",
+      "explanation": "Hacksaws have fine, hard teeth designed to cut metal and plastics."
+    },
+    {
+      "id": 283,
+      "category": "Shop Information",
+      "question": "An Allen wrench (hex key) is used for what?",
+      "options": [
+        "Phillips screws",
+        "Hexagonal socket fasteners",
+        "Square nuts",
+        "Slotted screws"
+      ],
+      "answer": "Hexagonal socket fasteners",
+      "explanation": "Allen wrenches drive screws and bolts that have a hexagonal recess."
+    },
+    {
+      "id": 284,
+      "category": "Shop Information",
+      "question": "A torque wrench is used to do what?",
+      "options": [
+        "Cut bolts to length",
+        "Apply a specific tightening force",
+        "Bend metal pipe",
+        "Measure thread pitch"
+      ],
+      "answer": "Apply a specific tightening force",
+      "explanation": "Torque wrenches measure rotational force, ensuring fasteners are tightened to a precise specification."
+    },
+    {
+      "id": 285,
+      "category": "Shop Information",
+      "question": "Safety goggles primarily protect what?",
+      "options": [
+        "Hearing",
+        "Eyes from flying debris and chemicals",
+        "Hands from cuts",
+        "Lungs from dust"
+      ],
+      "answer": "Eyes from flying debris and chemicals",
+      "explanation": "Goggles seal around the eyes to block particles, splashes, and impact debris."
+    },
+    {
+      "id": 286,
+      "category": "Shop Information",
+      "question": "Which tool is best for stationary, precise drilling at consistent angles?",
+      "options": [
+        "Cordless drill",
+        "Drill press",
+        "Hammer drill",
+        "Hand brace"
+      ],
+      "answer": "Drill press",
+      "explanation": "A drill press is bench mounted, holding the bit perfectly perpendicular for accurate, repeatable drilling."
+    },
+    {
+      "id": 287,
+      "category": "Shop Information",
+      "question": "PVA wood glue is what type of adhesive?",
+      "options": [
+        "Solvent based",
+        "Water based polymer adhesive",
+        "Two part epoxy",
+        "Hot melt resin"
+      ],
+      "answer": "Water based polymer adhesive",
+      "explanation": "PVA stands for polyvinyl acetate. It is a common water based wood glue that dries to a strong bond."
+    },
+    {
+      "id": 288,
+      "category": "Shop Information",
+      "question": "A coping saw is best suited for what?",
+      "options": [
+        "Cutting straight long boards",
+        "Cutting intricate shapes and curves",
+        "Drilling holes",
+        "Driving long screws"
+      ],
+      "answer": "Cutting intricate shapes and curves",
+      "explanation": "A coping saw has a thin, replaceable blade in a frame, ideal for tight curves and detailed work."
+    },
+    {
+      "id": 289,
+      "category": "Shop Information",
+      "question": "A nail gun is most commonly powered by what?",
+      "options": [
+        "Hand pumps",
+        "Compressed air or batteries",
+        "Hydraulic fluid",
+        "Wind power"
+      ],
+      "answer": "Compressed air or batteries",
+      "explanation": "Pneumatic and cordless battery powered nail guns are the two most common types in use today."
+    },
+    {
+      "id": 290,
+      "category": "Shop Information",
+      "question": "A block plane is used to do what?",
+      "options": [
+        "Drill holes",
+        "Smooth and trim wood surfaces",
+        "Cut metal",
+        "Sharpen saws"
+      ],
+      "answer": "Smooth and trim wood surfaces",
+      "explanation": "A block plane uses a low angle blade to shave thin layers off wood for smoothing and fitting."
+    },
+    {
+      "id": 291,
+      "category": "Mechanical Comprehension",
+      "question": "A first class lever has the fulcrum positioned where?",
+      "options": [
+        "Between the load and the effort",
+        "Beyond the load",
+        "On top of the load",
+        "At the same point as the effort"
+      ],
+      "answer": "Between the load and the effort",
+      "explanation": "First class levers (like a seesaw) have the fulcrum in the middle, with effort on one side and load on the other."
+    },
+    {
+      "id": 292,
+      "category": "Mechanical Comprehension",
+      "question": "A single fixed pulley provides a mechanical advantage of what?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Infinity"
+      ],
+      "answer": "1",
+      "explanation": "A single fixed pulley changes the direction of the force but does not multiply it. The MA is 1."
+    },
+    {
+      "id": 293,
+      "category": "Mechanical Comprehension",
+      "question": "In a block and tackle with 4 supporting rope sections, the mechanical advantage is what?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": "4",
+      "explanation": "Mechanical advantage of a pulley system equals the number of rope sections supporting the load, which is 4 here."
+    },
+    {
+      "id": 294,
+      "category": "Mechanical Comprehension",
+      "question": "Two meshed gears rotate in which directions?",
+      "options": [
+        "The same direction",
+        "Opposite directions",
+        "Both stop",
+        "Randomly"
+      ],
+      "answer": "Opposite directions",
+      "explanation": "When two external gears mesh, their teeth force each gear to rotate opposite to the other."
+    },
+    {
+      "id": 295,
+      "category": "Mechanical Comprehension",
+      "question": "If a small gear drives a larger gear, what happens?",
+      "options": [
+        "Speed increases, torque decreases",
+        "Speed decreases, torque increases",
+        "Speed and torque both increase",
+        "Both stay the same"
+      ],
+      "answer": "Speed decreases, torque increases",
+      "explanation": "A small driver to a larger driven gear reduces output speed but multiplies torque."
+    },
+    {
+      "id": 296,
+      "category": "Mechanical Comprehension",
+      "question": "An inclined plane reduces what at the cost of increasing what?",
+      "options": [
+        "Distance, force",
+        "Force, distance",
+        "Mass, gravity",
+        "Weight, height"
+      ],
+      "answer": "Force, distance",
+      "explanation": "An inclined plane lets you lift a load using less force, but you must push it through a longer distance."
+    },
+    {
+      "id": 297,
+      "category": "Mechanical Comprehension",
+      "question": "A wedge is used to do what?",
+      "options": [
+        "Bend metal",
+        "Split or hold materials by applying force at a narrow edge",
+        "Measure pressure",
+        "Generate electricity"
+      ],
+      "answer": "Split or hold materials by applying force at a narrow edge",
+      "explanation": "A wedge converts force applied to its blunt end into outward force at its tapered edge."
+    },
+    {
+      "id": 298,
+      "category": "Mechanical Comprehension",
+      "question": "A screw can be thought of as which simple machine wrapped around a cylinder?",
+      "options": [
+        "Lever",
+        "Inclined plane",
+        "Pulley",
+        "Wheel and axle"
+      ],
+      "answer": "Inclined plane",
+      "explanation": "Screw threads are inclined planes wound around a central shaft."
+    },
+    {
+      "id": 299,
+      "category": "Mechanical Comprehension",
+      "question": "Pascal's principle states that pressure applied to a confined fluid is what?",
+      "options": [
+        "Lost as heat",
+        "Transmitted equally in all directions",
+        "Doubled instantly",
+        "Reduced by half"
+      ],
+      "answer": "Transmitted equally in all directions",
+      "explanation": "Pascal's principle is the foundation of hydraulic systems. Pressure is transmitted unchanged through a confined fluid."
+    },
+    {
+      "id": 300,
+      "category": "Mechanical Comprehension",
+      "question": "Friction always acts in what direction?",
+      "options": [
+        "The same direction as motion",
+        "Opposite to the direction of motion",
+        "Vertically downward",
+        "Toward the center of mass"
+      ],
+      "answer": "Opposite to the direction of motion",
+      "explanation": "Friction is a resistive force that always opposes the relative motion or tendency of motion between surfaces."
+    },
+    {
+      "id": 301,
+      "category": "Mechanical Comprehension",
+      "question": "Static friction is generally what compared to kinetic friction?",
+      "options": [
+        "Less than",
+        "Greater than",
+        "Equal to",
+        "Zero"
+      ],
+      "answer": "Greater than",
+      "explanation": "Static friction (which must be overcome to start motion) is typically larger than kinetic friction (during motion)."
+    },
+    {
+      "id": 302,
+      "category": "Mechanical Comprehension",
+      "question": "Newton's third law states what?",
+      "options": [
+        "Force equals mass times acceleration",
+        "Every action has an equal and opposite reaction",
+        "Energy cannot be created",
+        "Mass and energy are equivalent"
+      ],
+      "answer": "Every action has an equal and opposite reaction",
+      "explanation": "Newton's third law: forces always come in equal and opposite pairs between interacting bodies."
+    },
+    {
+      "id": 303,
+      "category": "Mechanical Comprehension",
+      "question": "Pressure is defined as what?",
+      "options": [
+        "Mass times velocity",
+        "Force divided by area",
+        "Energy divided by time",
+        "Force times distance"
+      ],
+      "answer": "Force divided by area",
+      "explanation": "Pressure equals the perpendicular force applied per unit area. Smaller area produces more pressure for a given force."
+    },
+    {
+      "id": 304,
+      "category": "Mechanical Comprehension",
+      "question": "Density is defined as what?",
+      "options": [
+        "Mass per unit volume",
+        "Volume per unit mass",
+        "Force per unit area",
+        "Distance per unit time"
+      ],
+      "answer": "Mass per unit volume",
+      "explanation": "Density equals mass divided by volume. Common units are kg/m^3 or g/cm^3."
+    },
+    {
+      "id": 305,
+      "category": "Mechanical Comprehension",
+      "question": "Work in physics equals what?",
+      "options": [
+        "Force times distance",
+        "Mass times velocity",
+        "Pressure times volume",
+        "Power times area"
+      ],
+      "answer": "Force times distance",
+      "explanation": "Work is force applied over a distance in the direction of the force, measured in joules."
+    },
+    {
+      "id": 306,
+      "category": "Mechanical Comprehension",
+      "question": "If two forces of 10 N pull on an object in opposite directions, the net force is what?",
+      "options": [
+        "0 N",
+        "10 N",
+        "20 N",
+        "100 N"
+      ],
+      "answer": "0 N",
+      "explanation": "Equal and opposite forces cancel, producing a net force of zero."
+    },
+    {
+      "id": 307,
+      "category": "Mechanical Comprehension",
+      "question": "Acceleration is defined as what?",
+      "options": [
+        "Distance divided by time",
+        "Change in velocity divided by time",
+        "Force divided by mass times time",
+        "Mass times velocity"
+      ],
+      "answer": "Change in velocity divided by time",
+      "explanation": "Acceleration equals the rate of change of velocity. Note that F = ma is a separate consequence of Newton's 2nd law."
+    },
+    {
+      "id": 308,
+      "category": "Mechanical Comprehension",
+      "question": "Buoyant force on a submerged object equals what?",
+      "options": [
+        "The object's weight",
+        "The weight of fluid the object displaces",
+        "The fluid's volume",
+        "The object's surface area"
+      ],
+      "answer": "The weight of fluid the object displaces",
+      "explanation": "Archimedes' principle: a body in a fluid is buoyed up by a force equal to the weight of the fluid it displaces."
+    },
+    {
+      "id": 309,
+      "category": "Mechanical Comprehension",
+      "question": "A second class lever has what positioned between the fulcrum and the effort?",
+      "options": [
+        "The load",
+        "The fulcrum",
+        "Another lever",
+        "Nothing, they are at the same point"
+      ],
+      "answer": "The load",
+      "explanation": "In a second class lever (like a wheelbarrow), the load sits between the fulcrum and the effort."
+    },
+    {
+      "id": 310,
+      "category": "Mechanical Comprehension",
+      "question": "Power is defined as what?",
+      "options": [
+        "Force times distance",
+        "Work divided by time",
+        "Mass times acceleration",
+        "Distance divided by time"
+      ],
+      "answer": "Work divided by time",
+      "explanation": "Power is the rate of doing work, measured in watts (joules per second)."
+    },
+    {
+      "id": 311,
+      "category": "Mechanical Comprehension",
+      "question": "If a driver gear has 20 teeth and a driven gear has 60 teeth, the gear ratio is what?",
+      "options": [
+        "1 to 3",
+        "3 to 1",
+        "1 to 60",
+        "60 to 20"
+      ],
+      "answer": "1 to 3",
+      "explanation": "Gear ratio compares teeth count from driver to driven. 20 to 60 simplifies to 1 to 3."
+    },
+    {
+      "id": 312,
+      "category": "Mechanical Comprehension",
+      "question": "Two equal weights are placed on a balanced beam. To stay balanced, the distances from the fulcrum must be what?",
+      "options": [
+        "Equal",
+        "One twice the other",
+        "Negative",
+        "Anything"
+      ],
+      "answer": "Equal",
+      "explanation": "For equal weights, equal lever arm lengths produce equal torques, keeping the beam balanced."
+    },
+    {
+      "id": 313,
+      "category": "Mechanical Comprehension",
+      "question": "Hydraulic systems amplify force because of what?",
+      "options": [
+        "Friction",
+        "A small piston pushing fluid that moves a larger piston",
+        "Magnetic fields",
+        "Gear reduction"
+      ],
+      "answer": "A small piston pushing fluid that moves a larger piston",
+      "explanation": "By Pascal's principle, equal pressure on a larger area produces more force, multiplying the input force."
+    },
+    {
+      "id": 314,
+      "category": "Mechanical Comprehension",
+      "question": "Centripetal force on a body moving in a circle points where?",
+      "options": [
+        "Tangent to the circle",
+        "Toward the center",
+        "Away from the center",
+        "Vertical"
+      ],
+      "answer": "Toward the center",
+      "explanation": "Centripetal force is directed inward, perpendicular to motion, keeping the object in circular motion."
+    },
+    {
+      "id": 315,
+      "category": "Mechanical Comprehension",
+      "question": "Kinetic energy depends on which two quantities?",
+      "options": [
+        "Mass and velocity",
+        "Force and distance",
+        "Pressure and area",
+        "Charge and current"
+      ],
+      "answer": "Mass and velocity",
+      "explanation": "Kinetic energy equals one half mass times velocity squared. KE rises with both mass and (squared) speed."
+    },
+    {
+      "id": 316,
+      "category": "Assembling Objects",
+      "question": "A square is rotated 90 degrees. What does the resulting shape look like compared to the original?",
+      "options": [
+        "A triangle",
+        "A circle",
+        "Identical to the original",
+        "A pentagon"
+      ],
+      "answer": "Identical to the original",
+      "explanation": "A square has fourfold rotational symmetry. Rotating 90 degrees produces an identical square."
+    },
+    {
+      "id": 317,
+      "category": "Assembling Objects",
+      "question": "How many faces does a cube have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": "6",
+      "explanation": "A cube has 6 square faces, 12 edges, and 8 vertices."
+    },
+    {
+      "id": 318,
+      "category": "Assembling Objects",
+      "question": "Viewed directly from above, a cylinder appears as what shape?",
+      "options": [
+        "Square",
+        "Rectangle",
+        "Circle",
+        "Triangle"
+      ],
+      "answer": "Circle",
+      "explanation": "Looking down the axis of a cylinder, you see only the circular top face."
+    },
+    {
+      "id": 319,
+      "category": "Assembling Objects",
+      "question": "Two parallel lines extended infinitely will do what?",
+      "options": [
+        "Eventually intersect",
+        "Curve toward each other",
+        "Never intersect",
+        "Form a triangle"
+      ],
+      "answer": "Never intersect",
+      "explanation": "By definition, parallel lines remain a constant distance apart and do not intersect."
+    },
+    {
+      "id": 320,
+      "category": "Assembling Objects",
+      "question": "Reflecting the point (3, 2) across the y axis gives what point?",
+      "options": [
+        "(3, -2)",
+        "(-3, 2)",
+        "(-3, -2)",
+        "(2, 3)"
+      ],
+      "answer": "(-3, 2)",
+      "explanation": "Reflecting across the y axis flips the sign of the x coordinate. The y coordinate is unchanged."
+    },
+    {
+      "id": 321,
+      "category": "Assembling Objects",
+      "question": "Which 3D shape has 4 triangular faces and 1 square base?",
+      "options": [
+        "Cube",
+        "Square pyramid",
+        "Cylinder",
+        "Tetrahedron"
+      ],
+      "answer": "Square pyramid",
+      "explanation": "A square pyramid has a 4 sided square base and 4 triangular faces meeting at an apex."
+    },
+    {
+      "id": 322,
+      "category": "Assembling Objects",
+      "question": "Two non parallel lines in the same plane will intersect at how many points?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinitely many"
+      ],
+      "answer": "1",
+      "explanation": "In a plane, any two lines that are not parallel must cross at exactly one point."
+    },
+    {
+      "id": 323,
+      "category": "Assembling Objects",
+      "question": "A regular polygon has what property?",
+      "options": [
+        "Random side lengths",
+        "All sides and all angles equal",
+        "Only equal angles",
+        "Only one symmetric axis"
+      ],
+      "answer": "All sides and all angles equal",
+      "explanation": "Regular polygons are equilateral and equiangular. Examples include equilateral triangles and squares."
+    },
+    {
+      "id": 324,
+      "category": "Assembling Objects",
+      "question": "Folding a square diagonally in half produces what shape?",
+      "options": [
+        "A smaller square",
+        "A right triangle",
+        "A rectangle",
+        "A circle"
+      ],
+      "answer": "A right triangle",
+      "explanation": "Folding a square along a diagonal creates two congruent right triangles."
+    },
+    {
+      "id": 325,
+      "category": "Assembling Objects",
+      "question": "Two shapes are described as similar. What does that mean?",
+      "options": [
+        "Same color",
+        "Same shape, possibly different size",
+        "Same area only",
+        "Same perimeter only"
+      ],
+      "answer": "Same shape, possibly different size",
+      "explanation": "Similar shapes have the same angles and proportional side lengths but may differ in scale."
+    },
+    {
+      "id": 326,
+      "category": "Assembling Objects",
+      "question": "Which of the following is a 3D shape with two circular bases connected by a curved surface?",
+      "options": [
+        "Cone",
+        "Cylinder",
+        "Sphere",
+        "Pyramid"
+      ],
+      "answer": "Cylinder",
+      "explanation": "A cylinder has two parallel circular bases and a single curved lateral surface."
+    },
+    {
+      "id": 327,
+      "category": "Assembling Objects",
+      "question": "The shortest distance between two points is what?",
+      "options": [
+        "A curved path",
+        "A straight line",
+        "A zigzag",
+        "A spiral"
+      ],
+      "answer": "A straight line",
+      "explanation": "In Euclidean geometry, the straight line segment is the shortest path between two points."
+    },
+    {
+      "id": 328,
+      "category": "Assembling Objects",
+      "question": "Translating a shape means moving it without changing what?",
+      "options": [
+        "Color",
+        "Size or orientation",
+        "Mass",
+        "Material"
+      ],
+      "answer": "Size or orientation",
+      "explanation": "Translation slides the shape across the plane while preserving its size, shape, and orientation."
+    },
+    {
+      "id": 329,
+      "category": "Assembling Objects",
+      "question": "If a triangle has angles measuring 60, 60, and 60 degrees, what type is it?",
+      "options": [
+        "Right",
+        "Equilateral",
+        "Scalene",
+        "Obtuse"
+      ],
+      "answer": "Equilateral",
+      "explanation": "An equilateral triangle has three equal angles of 60 degrees and three equal sides."
+    },
+    {
+      "id": 330,
+      "category": "Assembling Objects",
+      "question": "How many lines of symmetry does a regular hexagon have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "6",
+      "explanation": "A regular hexagon has 6 lines of symmetry, three through opposite vertices and three through opposite edge midpoints."
+    }
+  ]
+}
