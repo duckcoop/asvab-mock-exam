@@ -37,9 +37,33 @@ from tkinter import ttk, messagebox
 # ============================================================================
 
 APP_TITLE   = "ASVAB Mock Exam"
-APP_VERSION = "v3.0"
+APP_VERSION = "v3.1"
 QUICK_LEN   = 20
-FULL_LEN    = 100
+
+# Real CAT-ASVAB structure, the version administered at MEPS.
+# Source: Official-ASVAB.com, 135 questions across 198 minutes.
+#
+# The app previously computed section time as (questions in section) x
+# (an invented per-question rate). That made a 100 question exam hand you
+# 5 minutes for General Science, and it made every section far tighter
+# than the real thing. Arithmetic Reasoning really gives you 55 minutes
+# for 15 questions, which is 3.7 minutes each; the old model gave 72
+# seconds. Practising under the wrong clock teaches the wrong pacing.
+ASVAB_CAT_SPEC = {
+    "General Science":          {"questions": 15, "minutes": 12},
+    "Arithmetic Reasoning":     {"questions": 15, "minutes": 55},
+    "Word Knowledge":           {"questions": 15, "minutes": 9},
+    "Paragraph Comprehension":  {"questions": 10, "minutes": 27},
+    "Mathematics Knowledge":    {"questions": 15, "minutes": 31},
+    "Electronics Information":  {"questions": 15, "minutes": 10},
+    "Auto Information":         {"questions": 10, "minutes": 7},
+    "Shop Information":         {"questions": 10, "minutes": 7},
+    "Mechanical Comprehension": {"questions": 15, "minutes": 22},
+    "Assembling Objects":       {"questions": 15, "minutes": 18},
+}
+
+FULL_LEN = sum(s["questions"] for s in ASVAB_CAT_SPEC.values())   # 135
+FULL_MINUTES = sum(s["minutes"] for s in ASVAB_CAT_SPEC.values())  # 198
 
 # Order used everywhere the categories are listed
 CATEGORY_ORDER = [
@@ -161,6 +185,12 @@ def load_questions(filename: str = "questions.json") -> List[Question]:
             question=entry["question"], options=list(entry["options"]),
             answer=entry["answer"], explanation=entry["explanation"],
         )
+        # Shuffle display order. The source bank has 54% of its correct
+        # answers at position B, so without this a test taker who always
+        # guesses B scores 54% instead of the 25% they actually know.
+        # correct_letter() derives the letter from options.index(answer),
+        # so scoring, the mistake tracker, and review all follow along.
+        random.shuffle(q.options)
         if q.answer not in q.options or len(q.options) != 4:
             raise ValueError(f"Bad question entry id={q.id}")
         out.append(q)
@@ -326,6 +356,48 @@ class StatsTracker:
 # ============================================================================
 # Question selection
 # ============================================================================
+
+def select_exam_questions(bank: List[Question]) -> List[Question]:
+    """Build a real CAT-ASVAB: the exact per section counts, in test order.
+
+    Even coverage is the wrong model for a mock exam. The real test is not
+    balanced; Word Knowledge gets 15 questions and Paragraph Comprehension
+    gets 10, and the pacing you need to practise depends on those counts.
+    """
+    by_cat: Dict[str, List[Question]] = {}
+    for q in bank:
+        by_cat.setdefault(q.category, []).append(q)
+
+    out: List[Question] = []
+    for cat in CATEGORY_ORDER:
+        want = ASVAB_CAT_SPEC.get(cat, {}).get("questions", 0)
+        pool = list(by_cat.get(cat, []))
+        random.shuffle(pool)
+        if len(pool) < want:
+            # Not enough in the bank. Take everything rather than repeating
+            # questions, and let the section intro report the shortfall.
+            out.extend(pool)
+        else:
+            out.extend(pool[:want])
+    return out
+
+
+def section_seconds(category: str, question_count: int,
+                    full_exam: bool) -> int:
+    """Seconds allowed for a section.
+
+    A full mock uses the real time limit outright. A shorter practice run
+    scales that limit by the fraction of the section being asked, so the
+    per question pace still matches the real test.
+    """
+    spec = ASVAB_CAT_SPEC.get(category)
+    if not spec:
+        return max(60, question_count * 40)
+    if full_exam:
+        return spec["minutes"] * 60
+    per_q = (spec["minutes"] * 60) / max(1, spec["questions"])
+    return max(30, int(round(per_q * question_count)))
+
 
 def select_questions(bank: List[Question], count: int) -> List[Question]:
     """Even category coverage. Within categories, randomized. Sections grouped."""
@@ -495,6 +567,13 @@ class MockExamApp(tk.Tk):
     # --------------------------------------------------------------- utility helpers
 
     def _clear(self) -> None:
+        # Keyboard shortcuts belong to the question screen only. Leaving
+        # them bound means Enter on the results screen silently advances
+        # something invisible.
+        try:
+            self._unbind_question_keys()
+        except Exception:
+            pass
         if self.section_timer_id is not None:
             try:
                 self.after_cancel(self.section_timer_id)
@@ -587,7 +666,7 @@ class MockExamApp(tk.Tk):
 
         self._stat_card(stats_row, "Question Bank",
                         f"{len(self.bank)}",
-                        "verified items").grid(row=0, column=0, sticky="ew",
+                        "questions").grid(row=0, column=0, sticky="ew",
                                                padx=(0, 8))
         self._stat_card(stats_row, "Lifetime Accuracy",
                         f"{overall_pct:.0f}%" if ans else "—",
@@ -625,9 +704,11 @@ class MockExamApp(tk.Tk):
         self._btn(actions, f"Quick Review ({QUICK_LEN})",
                   lambda: self.start_test(QUICK_LEN),
                   primary=True, width=20).pack(side="left", padx=(0, 12))
-        self._btn(actions, f"Full Mock Exam ({FULL_LEN})",
-                  lambda: self.start_test(FULL_LEN),
-                  primary=True, width=22).pack(side="left", padx=(0, 12))
+        self._btn(actions,
+                  f"Full ASVAB ({FULL_LEN} q, {FULL_MINUTES // 60}h "
+                  f"{FULL_MINUTES % 60}m)",
+                  lambda: self.start_test(FULL_LEN, full_exam=True),
+                  primary=True, width=26).pack(side="left", padx=(0, 12))
 
         review_label = f"Review Mistakes ({self.tracker.count()})"
         self._btn(actions, review_label, self.start_review,
@@ -813,11 +894,16 @@ class MockExamApp(tk.Tk):
 
     # --------------------------------------------------------------- test start
 
-    def start_test(self, length: int) -> None:
+    def start_test(self, length: int, full_exam: bool = False) -> None:
         self.blind_mode = bool(self.blind_var.get())
-        self.questions = select_questions(self.bank, length)
-        mode_label = (f"{length} Question "
-                      f"{'Mock Exam' if length >= FULL_LEN else 'Review'}")
+        self.full_exam = full_exam
+        if full_exam:
+            self.questions = select_exam_questions(self.bank)
+            mode_label = (f"Full CAT-ASVAB Mock "
+                          f"({len(self.questions)} questions)")
+        else:
+            self.questions = select_questions(self.bank, length)
+            mode_label = f"{length} Question Review"
         self.session = TestSession(mode_label=mode_label, blind=self.blind_mode)
         self.current_idx = 0
         self.current_section = None
@@ -825,6 +911,7 @@ class MockExamApp(tk.Tk):
         self.show_section_intro_or_question()
 
     def start_review(self) -> None:
+        self.full_exam = False
         ids = self.tracker.ids()
         if not ids:
             messagebox.showinfo("Mistake Log", "No mistakes to review.")
@@ -860,8 +947,8 @@ class MockExamApp(tk.Tk):
         count = sum(1 for j in range(self.current_idx, len(self.questions))
                     if self.questions[j].category == category)
         info = CATEGORY_INFO.get(category, {"per_q": 30, "blurb": "", "code": ""})
-        per_q = info["per_q"]
-        seconds = count * per_q
+        seconds = section_seconds(category, count,
+                                  full_exam=getattr(self, "full_exam", False))
 
         body = tk.Frame(self.container, bg=C_BG)
         body.pack(fill="both", expand=True)
@@ -986,12 +1073,64 @@ class MockExamApp(tk.Tk):
         self._btn(footer, btn_text, self._on_next,
                   primary=True, width=18).pack(side="right")
 
+        # Shortcuts are useless if nobody knows they exist.
+        tk.Label(footer,
+                 text="A-D or 1-4 to answer  ·  Enter to continue",
+                 font=("Segoe UI", 9),
+                 fg=C_TEXT_MUTED, bg=C_BG).pack(side="right", padx=(0, 16))
+
         if self.review_mode:
             self._btn(footer, "Exit Review", self.show_welcome,
                       primary=False, width=14).pack(side="left")
 
+        self._bind_question_keys()
+
         if not self.review_mode:
             self._tick_clock()
+
+    # ----- keyboard -----------------------------------------------------
+
+    def _bind_question_keys(self) -> None:
+        """A/B/C/D selects, Enter advances, arrows move the selection.
+
+        Without this a 100 question exam costs 200 precise mouse trips,
+        which is most of why long sessions feel exhausting. Every real
+        test prep tool is keyboard driven; the mouse should be optional.
+        """
+        self.unbind_all("<Key>")
+        for i, letter in enumerate("ABCD"):
+            for variant in (letter, letter.lower()):
+                self.bind_all(f"<KeyPress-{variant}>",
+                              lambda e, idx=i: self._select_by_index(idx))
+            # Number keys too: some people reach for 1-4 first.
+            self.bind_all(f"<KeyPress-{i + 1}>",
+                          lambda e, idx=i: self._select_by_index(idx))
+        self.bind_all("<Return>", lambda e: self._on_next())
+        self.bind_all("<KP_Enter>", lambda e: self._on_next())
+        self.bind_all("<Down>", lambda e: self._move_selection(1))
+        self.bind_all("<Up>", lambda e: self._move_selection(-1))
+
+    def _unbind_question_keys(self) -> None:
+        for seq in ("<Return>", "<KP_Enter>", "<Down>", "<Up>"):
+            self.unbind_all(seq)
+        for i, letter in enumerate("ABCD"):
+            for variant in (letter, letter.lower()):
+                self.unbind_all(f"<KeyPress-{variant}>")
+            self.unbind_all(f"<KeyPress-{i + 1}>")
+
+    def _select_by_index(self, idx: int) -> None:
+        if 0 <= idx < len(getattr(self, "cards", [])):
+            self._on_card_select(self.cards[idx])
+
+    def _move_selection(self, delta: int) -> None:
+        cards = getattr(self, "cards", [])
+        if not cards:
+            return
+        if self.selected_card is None:
+            self._select_by_index(0 if delta > 0 else len(cards) - 1)
+            return
+        cur = cards.index(self.selected_card)
+        self._select_by_index((cur + delta) % len(cards))
 
     def _on_body_resize(self, evt) -> None:
         if self._q_text_label is not None:
